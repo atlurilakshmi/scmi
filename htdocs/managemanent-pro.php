@@ -60,40 +60,7 @@ ddaccordion.init({
           <li ><a href="overview.php" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
               <ul>
                 <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
-                <!-- heading -->
-                <li><a href="fact-sheet.php"><span class="let_big">C</span>OMPANY <span class="let_big">P</span>ROFILE</a>
-                    <ul>
-                      <li><a href="fact-sheet.php"><span class="let_big">F</span>act <span class="let_big">S</span>heet</a></li>
-                      <li><a href="organization-stru.php"><span class="let_big">O</span>rganization <span class="let_big">S</span>tructure</a></li>
-                      <li><a href="managemanent-pro.php"><span class="let_big">M</span>anagement <span class="let_big">P</span>rofiles</a></li>
-                      <li><a href="awards.php"><span class="let_big">A</span>wards &amp; <span class="let_big">R</span>ecognitions</a></li>
-                    </ul>
-                  <!-- heading -->
-                </li>
-                <li><a href="quarterly.php"><span class="let_big">R</span>ESULTS</a>
-                    <ul>
-                      <li><a href="quarterly.php"><span class="let_big">Q</span>uarterly</a></li>
-                      <li><a href="annual.php"><span class="let_big">A</span>nnual</a></li>
-                    </ul>
-                </li>
-                <!-- heading -->
-                <li class="dir"><a href="share-price.php"><span class="let_big">S</span>HARES</a>
-                    <ul>
-                      <li><a href="share-price.php"><span class="let_big">S</span>hare <span class="let_big">P</span>rice</a></li>
-                      <li><a href="shareholding-patt.php"><span class="let_big">S</span>hareholding <span class="let_big">P</span>attern</a></li>
-                      <li><a href="analyst-cov.php"><span class="let_big">A</span>nalyst <span class="let_big">C</span>overage </a></li>
-                      <li><a href="my-port.php"><span class="let_big">M</span>y <span class="let_big">P</span>ortfolio</a></li>
-                    </ul>
-                </li>
-                <li><a href="board-direct.php"><span class="let_big">C</span>ORPORATE <span class="let_big">G</span>OVERNANCE</a>
-                    <ul>
-                      <li><a href="board-direct.php"><span class="let_big">B</span>oard <span class="let_big">o</span>f <span class="let_big">D</span>irectors</a></li>
-                      <li><a href="memorandum-asso.php"><span class="let_big">M</span>emorandum <span class="let_big">o</span>f <span class="let_big">A</span>ssociation </a></li>
-                      <li><a href="article-asso.php"><span class="let_big">A</span>rticles <span class="let_big">o</span>f <span class="let_big">A</span>ssociation</a></li>
-                    </ul>
-                </li>
-                <li><a href="conferences-event.php"><span class="let_big">C</span>ONFERENCES &amp; <span class="let_big">E</span>VENTS</a></li>
-                <li><a href="investor-supp.php"><span class="let_big">I</span>NVESTOR <span class="let_big">S</span>UPPORT</a></li>
+                <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
               </ul>
           </li>
         </ul>
@@ -145,18 +112,26 @@ ddaccordion.init({
     </div>
   </div>
   <div id="content_wrap">
-    <div id="content-inner">
+    <div id="content-inner" style="height:561px; overflow-y:auto">
       <h2>Management Profiles</h2>
-      <p>To view profile, click on the name:</p>
+<!--       <p>To view profile, click on the name:</p> -->
       <!-- switch content div -->
-      <h5 id="bobcontent1-title" class="handcursor">&nbsp;Hemanth Kumar Balasundaram</h5>
+  <!--     <h5 id="bobcontent1-title" class="handcursor">&nbsp;Hemanth Kumar Balasundaram</h5>
       <div id="bobcontent1" class="switchgroup1"><img src="images/mng_pro_hem.jpg" border="0" /></div>
       <h5 id="bobcontent2-title" class="handcursor">&nbsp;Shashi Devendran Vimalan</h5>
       <div id="bobcontent2" class="switchgroup1"><img src="images/mng_pro_shashi.jpg" border="0" /></div>
       <h5 id="bobcontent3-title" class="handcursor">&nbsp;Sivakumar Balasundaram</h5>
-      <div id="bobcontent3" class="switchgroup1"><img src="images/mng_pro_sivakumar.jpg" border="0" /></div>
+      <div id="bobcontent3" class="switchgroup1"><img src="images/mng_pro_shashi.jpg" border="0" /></div>
       <h5 id="bobcontent4-title" class="handcursor">&nbsp;Anju Hemanth</h5>
-      <div id="bobcontent4" class="switchgroup1"><img src="images/mng_pro_anju.jpg" border="0" /></div>
+      <div id="bobcontent4" class="switchgroup1"><img src="images/mng_pro_anju.jpg" border="0" /></div> -->
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/hemanth.png" border="0" /></div>
+<div style="padding-bottom:10px"> <img style="width:615px;" src="images/prifiles/gokul.png" border="0" /></div>
+
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kamal.png" border="0" /></div>
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kartheek.png" border="0" /></div>
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/rakesh.png" border="0" /></div>
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/siva.png" border="0" /></div>
+
       <script type="text/javascript">
 // MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
 // Call Instance.init() at the very end. REQUIRED

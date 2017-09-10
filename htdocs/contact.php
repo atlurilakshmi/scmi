@@ -31,40 +31,7 @@ require_once("config.php");
         <li ><a href="overview.php" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
             <ul>
               <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
-              <!-- heading -->
-              <li><a href="fact-sheet.php"><span class="let_big">C</span>OMPANY <span class="let_big">P</span>ROFILE</a>
-                  <ul>
-                    <li><a href="fact-sheet.php"><span class="let_big">F</span>act <span class="let_big">S</span>heet</a></li>
-                    <li><a href="organization-stru.php"><span class="let_big">O</span>rganization <span class="let_big">S</span>tructure</a></li>
-                    <li><a href="managemanent-pro.php"><span class="let_big">M</span>anagement <span class="let_big">P</span>rofiles</a></li>
-                    <li><a href="awards.php"><span class="let_big">A</span>wards &amp; <span class="let_big">R</span>ecognitions</a></li>
-                  </ul>
-                <!-- heading -->
-              </li>
-              <li><a href="quarterly.php"><span class="let_big">R</span>ESULTS</a>
-                  <ul>
-                    <li><a href="quarterly.php"><span class="let_big">Q</span>uarterly</a></li>
-                    <li><a href="annual.php"><span class="let_big">A</span>nnual</a></li>
-                  </ul>
-              </li>
-              <!-- heading -->
-              <li class="dir"><a href="share-price.php"><span class="let_big">S</span>HARES</a>
-                  <ul>
-                    <li><a href="share-price.php"><span class="let_big">S</span>hare <span class="let_big">P</span>rice</a></li>
-                    <li><a href="shareholding-patt.php"><span class="let_big">S</span>hareholding <span class="let_big">P</span>attern</a></li>
-                    <li><a href="analyst-cov.php"><span class="let_big">A</span>nalyst <span class="let_big">C</span>overage </a></li>
-                    <li><a href="my-port.php"><span class="let_big">M</span>y <span class="let_big">P</span>ortfolio</a></li>
-                  </ul>
-              </li>
-              <li><a href="board-direct.php"><span class="let_big">C</span>ORPORATE <span class="let_big">G</span>OVERNANCE</a>
-                  <ul>
-                    <li><a href="board-direct.php"><span class="let_big">B</span>oard <span class="let_big">o</span>f <span class="let_big">D</span>irectors</a></li>
-                    <li><a href="memorandum-asso.php"><span class="let_big">M</span>emorandum <span class="let_big">o</span>f <span class="let_big">A</span>ssociation </a></li>
-                    <li><a href="article-asso.php"><span class="let_big">A</span>rticles <span class="let_big">o</span>f <span class="let_big">A</span>ssociation</a></li>
-                  </ul>
-              </li>
-              <li><a href="conferences-event.php"><span class="let_big">C</span>ONFERENCES &amp; <span class="let_big">E</span>VENTS</a></li>
-              <li><a href="investor-supp.php"><span class="let_big">I</span>NVESTOR <span class="let_big">S</span>UPPORT</a></li>
+              <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
             </ul>
         </li>
       </ul>
@@ -118,18 +85,26 @@ require_once("config.php");
 <div id="content_wrap">
 <div id="content-inner">
 <h2>CONTACT US</h2>
+USA:<br />
+SCIMORES Corporation <br />
+6 Russel Road, East Brunswick, NJ-08816<br />
+Tel     : +1-(732) 397-0766 <br />
+Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">hb01@scimores.com</a><br/>
+<br/>
+
+SCIMORES Academy LLC<br/>
+8250 Westpark Drive, #461, McLean, VA-22102<br/>
+Tel : +1-(732) 397-0766</br>
+Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">hb01@scimores.com</a><br/>
+</br>
+ 
 India:<br/>
 SCIMORES Corporation (India) Limited<br/>
 20/21  Conran Smith Road,   B7<br/>
 Gopalapuram, Chennai-600086<br/>
-Tel     :  +91-9500006705 Fax    :  +91-44- 42144980<br/>
-Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">support@scimores.com</a><br />
-<br />
-USA:<br />
-SCIMORES Corporation Limited<br />
-410 Kings Court, Woodbridge, NJ-07095<br />
-Tel     :  +1-(848) 260-7086 Fax    :  +1-(732) 582-6783<br />
-Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">support@scimores.com</a></div>
+Tel     :  +1-(732) 397-0766 <br/>
+Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">hb01@scimores.com</a>
+</div>
 </div>
 <div class="clear-fix"></div>
 <!--dont remove this line-->

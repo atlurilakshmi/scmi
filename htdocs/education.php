@@ -10,6 +10,18 @@ require_once("config.php");
 <link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
 <link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
 <link href="css/default.css" media="all" rel="stylesheet" type="text/css" />
+<link href="css/carousel.css" media="all" rel="stylesheet" type="text/css" />
+<script async src="js/carousel.min.js"></script>
+<style type="text/css">
+  .carousel-item{
+    height: 300px;
+  }
+
+  #content-inner{
+    height: 563px;
+    overflow-y: auto;
+  }
+</style>
 </head>
 <body>
 <div class="school_backdrop">
@@ -31,40 +43,7 @@ require_once("config.php");
         <li ><a href="overview.php" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
             <ul>
               <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
-              <!-- heading -->
-              <li><a href="fact-sheet.php"><span class="let_big">C</span>OMPANY <span class="let_big">P</span>ROFILE</a>
-                  <ul>
-                    <li><a href="fact-sheet.php"><span class="let_big">F</span>act <span class="let_big">S</span>heet</a></li>
-                    <li><a href="organization-stru.php"><span class="let_big">O</span>rganization <span class="let_big">S</span>tructure</a></li>
-                    <li><a href="managemanent-pro.php"><span class="let_big">M</span>anagement <span class="let_big">P</span>rofiles</a></li>
-                    <li><a href="awards.php"><span class="let_big">A</span>wards &amp; <span class="let_big">R</span>ecognitions</a></li>
-                  </ul>
-                <!-- heading -->
-              </li>
-              <li><a href="quarterly.php"><span class="let_big">R</span>ESULTS</a>
-                  <ul>
-                    <li><a href="quarterly.php"><span class="let_big">Q</span>uarterly</a></li>
-                    <li><a href="annual.php"><span class="let_big">A</span>nnual</a></li>
-                  </ul>
-              </li>
-              <!-- heading -->
-              <li class="dir"><a href="share-price.php"><span class="let_big">S</span>HARES</a>
-                  <ul>
-                    <li><a href="share-price.php"><span class="let_big">S</span>hare <span class="let_big">P</span>rice</a></li>
-                    <li><a href="shareholding-patt.php"><span class="let_big">S</span>hareholding <span class="let_big">P</span>attern</a></li>
-                    <li><a href="analyst-cov.php"><span class="let_big">A</span>nalyst <span class="let_big">C</span>overage </a></li>
-                    <li><a href="my-port.php"><span class="let_big">M</span>y <span class="let_big">P</span>ortfolio</a></li>
-                  </ul>
-              </li>
-              <li><a href="board-direct.php"><span class="let_big">C</span>ORPORATE <span class="let_big">G</span>OVERNANCE</a>
-                  <ul>
-                    <li><a href="board-direct.php"><span class="let_big">B</span>oard <span class="let_big">o</span>f <span class="let_big">D</span>irectors</a></li>
-                    <li><a href="memorandum-asso.php"><span class="let_big">M</span>emorandum <span class="let_big">o</span>f <span class="let_big">A</span>ssociation </a></li>
-                    <li><a href="article-asso.php"><span class="let_big">A</span>rticles <span class="let_big">o</span>f <span class="let_big">A</span>ssociation</a></li>
-                  </ul>
-              </li>
-              <li><a href="conferences-event.php"><span class="let_big">C</span>ONFERENCES &amp; <span class="let_big">E</span>VENTS</a></li>
-              <li><a href="investor-supp.php"><span class="let_big">I</span>NVESTOR <span class="let_big">S</span>UPPORT</a></li>
+               <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
             </ul>
         </li>
       </ul>
@@ -117,14 +96,77 @@ require_once("config.php");
 </div>
 <div id="content_wrap">
 <div id="content-inner">
+
 <h2>EDUCATIONAL SECTOR</h2>
 SCIMORES Educational Sector will be focussing on world-class international educational facilities with state-of-the-art academic, extra-curricular, and infrastructural facilities to the convenience of today’s global community, and to prepare tomorrow’s.
+
+<div class="curr-projects">
+
 <div class="thumb_head">CURRENT PROJECTS</div>
-<div style="border-bottom:1px solid #666666;"></div>
+<!-- <div id="content_thumb_wrapper"> <a href="intl-school.php"><img src="images/current-proj.png" alt="SCIMORES INTL SCHOOL" title="SCIMORES INTL SCHOOL" /></a>
+<h2><a href="intl-school.php" style="color:#f1f0f0">SCIMORES ACADEMY LLC</a></h2>
+</div> -->
+
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="images/current-profiles/1.png">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="images/current-profiles/2.png">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="images/current-profiles/3.png">
+            </div>
+
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schools provide regular academics, Recreation Centers provide sports related activities, 
+what’s missing is a nice academy like facility for Fine Arts & Music that has the space, 
+ambience and environment that’s inspiring for the teachers to teach and for students to learn.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scimores Academy will close that gap with this state-of-the-art, and a next generation academy 
+for Arts and Music offering 25 programs all under one roof for children from ages 4 through 18,
+ taking into consideration – (a) what a child will need during these development years, and 
+ (b) demography of the location & neighboring areas/cities.<br/>
+
+
+
+<!-- <div class="clear-fix"></div> -->
+<div style="border-bottom:1px solid #666666; margin-top:10px;"></div>
+<div class="pipeline-projects"> 
+
 <div class="thumb_head">PIPELINE PROJECTS</div>
+
 <div id="content_thumb_wrapper"> <a href="intl-school.php"><img src="images/intl_thumb.jpg" alt="SCIMORES INTL SCHOOL" title="SCIMORES INTL SCHOOL" /></a>
 <h2><a href="intl-school.php" style="color:#f1f0f0">SCIMORES INTL SCHOOL</a></h2>
 </div>
+
+</div>
+
 </div>
 </div>
 </div>
