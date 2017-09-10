@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to the SCIMORES Corporation!</title>
+<link href="css/template_sci.css" rel="stylesheet" type="text/css"  />
+<link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
+<link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
+<link href="css/default.css" media="all" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+<script type="text/javascript">
+ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix", "<img src='images/plusmnu.png' class='statusicon' />", "<img src='images/minusmnu.png' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+</script>
+</head>
+<body>
+<div id="template_main">
+  <div id="navi_wrapper">
+    <div id="navi_inner">
+      <div id="logo">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="205" height="76">
+          <param name="movie" value="flash/logo.swf" />
+          <param name="quality" value="high" />
+          <embed src="flash/logo.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="205" height="76"></embed>
+        </object>
+      </div>
+      <!-- CSS VERTICAL MENU START -->
+      <div class="space"></div>
+      <div id="navi_mnu">
+<ul id="nav" class="dropdown dropdown-vertical">
+<li><a href="home.html" target="_self" title="Home Page"><span class="let_big">H</span>ome</a></li>
+<li class="cur_main_mnu"><a href="#" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
+<ul>
+<li><a href="overview.html"><span class="let_big">O</span>VERVIEW</a></li>
+<li><a href="#"><span class="let_big">C</span>OMPANY <span class="let_big">P</span>ROFILE</a>
+<ul>
+<li><a href="fact-sheet.html"><span class="let_big">F</span>act <span class="let_big">S</span>heet</a></li>
+<li><a href="organization-stru.html"><span class="let_big">O</span>rganization <span class="let_big">S</span>tructure</a></li>
+<li><a href="managemanent-pro.html"><span class="let_big">M</span>anagement <span class="let_big">P</span>rofiles</a></li>
+<li><a href="awards.html"><span class="let_big">A</span>wards &amp; <span class="let_big">R</span>ecognitions</a></li>
+</ul>
+<li><a href="#"><span class="let_big">R</span>ESULTS</a>
+<ul>
+<li><a href="quarterly.html"><span class="let_big">Q</span>uarterly</a></li>
+<li><a href="annual.html"><span class="let_big">A</span>nnual</a></li>
+</ul>
+</li>
+<li class="dir"><a href="#"><span class="let_big">S</span>HARES</a>
+<ul>
+<li><a href="share-price.html"><span class="let_big">S</span>hare Price</a></li>
+<li><a href="shareholding-patt.html"><span class="let_big">S</span>hareholding <span class="let_big">P</span>attern</a></li>
+<li><a href="analyst-cov.html"><span class="let_big">A</span>nalyst <span class="let_big">C</span>overage </a></li>
+<li><a href="my-port.php"><span class="let_big">M</span>y <span class="let_big">P</span>ortfolio</a></li>
+</ul>
+</li>
+<li><a href="#"><span class="let_big">C</span>ORPORATE <span class="let_big">G</span>OVERNANCE</a>
+<ul>
+<li><a href="board-direct.html"><span class="let_big">B</span>oard of <span class="let_big">D</span>irectors</a></li>
+<li><a href="memorandum-asso.html">Memorandum of Association </a></li>
+ <li><a href="article-asso.html">Article of Association</a></li>
+</ul>
+</li>
+<li><a href="conferences-event.html"><span class="let_big">C</span>ONFERENCES &amp; <span class="let_big">E</span>VENTS</a></li>
+<li><a href="investor-supp.html"><span class="let_big">I</span>NVESTOR <span class="let_big">S</span>UPPORT</a></li>
+</ul></li></ul>
+</div>
+<div class="space_bord_split"></div>
+<div id="navi_mnu">
+<ul id="nav" class="dropdown dropdown-vertical">
+<li><a href="architect.html" target="_self"><span class="let_big">a</span>rchitectures</a></li>
+<li><a href="recreat.html" target="_self"><span class="let_big">r</span>ecreation &amp; <span class="let_big">h</span>otels</a></li>
+<li><a href="industry.html" target="_self"><span class="let_big">i</span>ndustry of <span class="let_big">f</span>ashion</a></li>
+<li><a href="education.html" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a></li>
+</ul>
+</div>
+<div class="space_bord_split"></div>
+<div id="navi_mnu">
+<ul id="nav" class="dropdown dropdown-vertical">
+<li><a href="news.html" target="_self"><span class="let_big">N</span>ews &amp; <span class="let_big">a</span>nnouncements</a></li>
+<li><a href="contact.html" target="_self"><span class="let_big">c</span>ontact <span class="let_big">u</span>s</a></li>
+</ul>
+</div>
+<!-- CSS VERTICAL MENU END -->
+    </div>
+  </div>
+  <div id="content_wrap">
+    <div id="content-inner">
+      <h2>Thank You</h2>
+	  <p>Thank you for registering with Scimores Corporation! You will be receiving Your Account Activation to Your Email Id </p>
+       </div>
+  </div>
+  <div class="clear-fix"></div>
+  <!--dont remove this line-->
+</div>
+<!-- template main end -->
+<div id="footer">
+  <!-- quick link start -->
+  <div class="footer-link2"> <a href="press.html">Press Room</a><a href="foundation.html">Foundations</a><a href="partnership.html">Partnerships</a><a href="portfolio.html">Portfolio</a><a href="privacy.html">Privacy Policy</a><a href="sitemap.html">Site Map</a></div>
+  <!-- quick link end -->
+  <!-- register link start -->
+  <div class="footer-link3"> <a href="login.php" target="_self">Members  Login</a> | <a href="register.php" target="_self">Register</a></div>
+  <div class="address">20/21 Conran Smith Road, B7, Gopalapuram, Chennai-600086, India | Tel: +91-9500006705 | Fax: +91-44-42144980<br />
+    Copyright  © 2009 Scimores Corporation</div>
+  <!-- register link end -->
+</div>
+<!--footer-->
+</body>
+</html>

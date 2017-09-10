@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import "helper.css";
+/*-------------------------------------------------/
+ * Design		Kalaivannan.P
+ * CSS level 	2.0
+ * Year			2009
+ * Credit		orizen solutions
+ * Client		www.scimores.com
+ * This document validates as CSS level 2.0 
+ -------------------------------------------------*/
+ul.dropdown {
+	font-weight: normal;
+	}
+ul.dropdown li {
+	 padding:0 10px 0 0;
+	 text-align:right;
+	 font: bold 13px "Times New Roman", Times, serif;
+	 line-height: 2.2em;
+	 text-transform:uppercase;
+	 color:#e1e2e4;
+	 height:27px;
+	}
+ul.dropdown li a:hover,
+ul.dropdown li a:hover {
+	 text-align:right;
+	 font: bold 13px "Times New Roman", Times, serif;
+	 color:#e1e2e4;
+	 line-height: 2.2em;
+	}
+ul.dropdown a:link, ul.dropdown a:visited { 
+	color:#e1e2e4; 
+	text-decoration:none; 
+	}
+ul.dropdown a:hover { 
+	color:#e1e2e4; 
+	text-decoration:none; 
+	}
+	/* -- level mark -- */
+ul.dropdown ul {
+	 width:185px;
+	 margin-top:1px;
+	}
+ul.dropdown ul li {
+	 font: normal;
+	 height:20px;
+	 padding: 0 0 0 10px;
+	 margin:0;
+	 display:block;
+	}
+	
+ul.dropdown ul li li{
+	 font: normal;
+	 height:20px;
+	 padding: 0 0 0 10px;
+	 margin:0;
+	 width:168px;
+	 display:block;
+	}

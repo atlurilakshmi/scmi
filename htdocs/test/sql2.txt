@@ -1,0 +1,93 @@
+-- phpMyAdmin SQL Dump
+-- version 2.6.4-pl3
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Nov 26, 2009 at 12:37 PM
+-- Server version: 5.0.15
+-- PHP Version: 5.0.5
+-- 
+-- Database: `db_scimores`
+-- 
+
+-- 
+-- Table structure for table `sci_reference`
+-- 
+
+CREATE TABLE `sci_reference` (
+  `sci_sno` int(11) NOT NULL auto_increment,
+  `sci_warrantdate` date NOT NULL,
+  `sci_sharetype` varchar(50) NOT NULL,
+  `sci_currentvalue` float(6,2) NOT NULL,
+  PRIMARY KEY  (`sci_sno`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='scimores references table' AUTO_INCREMENT=2 ;
+
+-- 
+-- Dumping data for table `sci_reference`
+-- 
+
+INSERT INTO `sci_reference` VALUES (1, '2012-12-31', 'warrented', 25.00);
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `sci_stock`
+-- 
+
+CREATE TABLE `sci_stock` (
+  `sci_email` varchar(50) NOT NULL,
+  `sci_trans_type` varchar(20) NOT NULL,
+  `sci_trans_date` date NOT NULL,
+  `sci_investment` bigint(10) NOT NULL,
+  `sci_share_type` varchar(30) NOT NULL,
+  `sci_num_share` int(11) NOT NULL,
+  `sci_purchasevalue` float NOT NULL,
+  `sci_approval_status` varchar(30) NOT NULL,
+  `sci_auth_code` varchar(20) NOT NULL,
+  `sci_certficateno` int(11) NOT NULL,
+  `sci_pri_holder` varchar(50) NOT NULL,
+  `sci_pri_percent` float NOT NULL,
+  `sci_joint` varchar(40) NOT NULL,
+  `sci_joint_percent` float NOT NULL,
+  `sci_benifit1` varchar(40) NOT NULL,
+  `sci_benifit1_percent` float NOT NULL,
+  `sci_benifit2` varchar(40) NOT NULL,
+  `sci_benifit2_percent` float NOT NULL,
+  `sci_benifit3` varchar(40) NOT NULL,
+  `sci_benifit3_percent` float NOT NULL,
+  UNIQUE KEY `sci_auht_code` (`sci_auth_code`,`sci_certficateno`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='scimores stock details table';
+
+-- 
+-- Dumping data for table `sci_stock`
+-- 
+
+INSERT INTO `sci_stock` VALUES ('asdasd@sdfs.com', 'Purchase', '2009-11-26', 20000, 'warrant', 800, 0, '-', '0', 0, 'michael', 88, 'raja', 12, 'andrew', 60, 'kumar', 20, 'jebastin', 20);
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `sci_stock_info`
+-- 
+
+CREATE TABLE `sci_stock_info` (
+  `sci_cust_id` int(6) NOT NULL,
+  `sci_transaction` varchar(30) NOT NULL,
+  `sci_sharetype` varchar(30) NOT NULL,
+  `sci_warrantdate` date NOT NULL,
+  `sci_noofshare` int(6) NOT NULL,
+  `sci_certificationno` varchar(30) NOT NULL,
+  `sci_transactiondate` date NOT NULL,
+  `sci_purchasevalue` double(10,2) NOT NULL,
+  `sci_currentvalue` double(10,2) NOT NULL,
+  `sci_auth_code` varchar(30) NOT NULL,
+  `sci_shareholdertype` varchar(30) NOT NULL,
+  `sci_sharepercentage` float(8,2) NOT NULL,
+  `sci_ststus` varchar(20) NOT NULL,
+  `sci_paymentmode` varchar(20) NOT NULL,
+  UNIQUE KEY `sci_cust_id` (`sci_cust_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='scimores stock information';
+
+-- 
+-- Dumping data for table `sci_stock_info`
+-- 

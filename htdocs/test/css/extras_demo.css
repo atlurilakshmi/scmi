@@ -1,0 +1,87 @@
+/*-------------------------------------------------/
+ * Design		Kalaivannan.P
+ * CSS level 	3
+ * Year			2009
+ * Credit		orizen solutions
+ * Client		www.scimores.com
+ * This document validates as CSS level 3 
+ -------------------------------------------------*/
+/* scroller div wrapper style */
+#scroller_wrapper {
+	width: 165px;
+	height: auto;
+	float: left;
+	}
+#extra_controls, #scrollbar { 
+    display:block; /* initially display:none; to hide from incapable */
+    }
+#wn	{ 
+	position:relative;
+	width: 140px; 
+	height: 350px; 
+	overflow:hidden;
+	}
+.content { /* hide content to be swapped in */
+	width:140px;
+	position:absolute; 
+	visibility:hidden;
+	left:0px; 
+	top: 0; 
+	}
+#lyr1 { /* show first  */
+	top: 0;
+    visibility: visible;
+    }
+/* image style */
+a img#lyr1 {
+	border: 1px solid #333;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+a:hover img#lyr1 {
+	background-color: #666;
+}
+#scrollbar { 
+  position:relative;
+  width: 11px; 
+  height: 350px; 
+  font-size: 1px;  /* so no gap or misplacement due to image vertical alignment */
+  }
+#track { 
+  position:absolute; 
+  left: 5px; 
+  top: 0px;
+  width: 15px; 
+  height: 350px;
+  background: url(../images/track.gif) center no-repeat;
+  }
+#dragBar {
+	position: absolute;
+  	left: 0px; 
+  	top: 0px;
+ 	width: 15px; 
+	height: 15px;
+  	background: url(../images/track_button.gif) center no-repeat;
+  }  
+#up { 
+	position:absolute; 
+	left:0; 
+	top:0; 
+	}  
+#down { 
+	position:absolute; 
+	left:0; 
+	bottom:0; 
+	}
+
+/* so no gap or misplacement due to image vertical alignment
+font-size:1px in scrollbar has same effect (less likely to be removed, resulting in support issues) */
+#scrollbar img {
+    display:block; 
+    } 
+    
+/* for safari, to prevent selection problem */
+#scrollbar, #track, #dragBar, #up, #down {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
