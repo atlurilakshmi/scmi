@@ -132,7 +132,9 @@ unset($_SESSION['lastclickedlink']);
                     <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Special Exception Application Approved by Board of Supervisors</a>
                     <br>2017-04-26&nbsp;&nbsp;&nbsp;
                     <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Speical Exception Application Approved by Planning Commission</a>
-                    <br> 2016-04-19&nbsp;&nbsp;&nbsp;Rezoning & Special Exception Application Accepted by Department of Planning and Zoning
+                    
+                    <br> 2016-04-19&nbsp;&nbsp;&nbsp;<a href="pdf/acceptance.pdf" target="_blank" class="yellow">Rezoning & Special Exception Application Accepted by Department of Planning and Zoning</a>
+                    
                     <br> 2016-02-26&nbsp;&nbsp;&nbsp;Rezoning & Special Exception Application Submitted to Department of Planning and Zoning
                     <br> 2015-12-31&nbsp;&nbsp;&nbsp;Completed GDP & SE PLAT
                     <br> 2015-06-30&nbsp;&nbsp;&nbsp;Completed Feasibility Study

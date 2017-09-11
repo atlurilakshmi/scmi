@@ -125,12 +125,12 @@ ddaccordion.init({
       <h5 id="bobcontent4-title" class="handcursor">&nbsp;Anju Hemanth</h5>
       <div id="bobcontent4" class="switchgroup1"><img src="images/mng_pro_anju.jpg" border="0" /></div> -->
 <div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/hemanth.png" border="0" /></div>
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kamal.png" border="0" /></div>
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/shiva.png" border="0" /></div>
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/rakesh.png" border="0" /></div>
+<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kartheek_1.png" border="0" /></div>
 <div style="padding-bottom:10px"> <img style="width:615px;" src="images/prifiles/gokul.png" border="0" /></div>
 
-<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kamal.png" border="0" /></div>
-<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kartheek.png" border="0" /></div>
-<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/rakesh.png" border="0" /></div>
-<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/siva.png" border="0" /></div>
 
       <script type="text/javascript">
 // MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
