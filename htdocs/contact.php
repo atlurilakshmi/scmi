@@ -89,13 +89,13 @@ USA:<br />
 SCIMORES Corporation <br />
 6 Russel Road, East Brunswick, NJ-08816<br />
 Tel     : +1-(732) 397-0766 <br />
-Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">hb01@scimores.com</a><br/>
+Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">info@scimores.com</a><br/>
 <br/>
 
 SCIMORES Academy LLC<br/>
 8250 Westpark Drive, #461, McLean, VA-22102<br/>
 Tel : +1-(732) 397-0766</br>
-Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">hb01@scimores.com</a><br/>
+Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">info@scimores.com</a><br/>
 </br>
  
 India:<br/>
@@ -103,7 +103,7 @@ SCIMORES Corporation (India) Limited<br/>
 20/21  Conran Smith Road,   B7<br/>
 Gopalapuram, Chennai-600086<br/>
 Tel     :  +1-(732) 397-0766 <br/>
-Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">hb01@scimores.com</a>
+Email : <a class="blue" href="mailto:support@scimores.com" style="text-decoration:none">info@scimores.com</a>
 </div>
 </div>
 <div class="clear-fix"></div>
