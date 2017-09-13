@@ -122,14 +122,15 @@ if(isset($_POST['txtusername']) && isset($_POST['txtpassword']))
                 <li><a href="goldlip.php"><big>G</big>OLD <span class="let_big">L</span>IP <span class="let_big">HFC</span></a></li>
               </ul>
             </li>
-            <li><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
-              <ul>
-                <h2><big>C</big>URRENT <big>P</big>ROJECTS</h2>
-                <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
-                <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
-                <li><a href="intl-school.php"><big>S</big>CIMORES <big>I</big>nternational <big>S</big>chool</a></li>
-              </ul>
-            </li>
+        <li><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
+            <ul>
+              <h2><big>C</big>URRENT <big>P</big>ROJECTS</h2>
+              <li><a href="academy.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>S</big>CIMORES <big>A</big>cademy</a></li>
+              <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
+              <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
+              <li><a href="intl-school.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>S</big>CIMORES <big>I</big>ntl <big>S</big>chool</a></li>
+            </ul>
+        </li>
         </ul>
       </div>
       <div class="space_bord_split"></div>

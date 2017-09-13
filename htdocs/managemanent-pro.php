@@ -91,14 +91,15 @@ ddaccordion.init({
                 <li><a href="alba.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>A</big>lba<big>.T.K.</big> </a></li>
               </ul>
           </li>
-          <li class="cur_main_mnu" ><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
-              <ul>
-                <h2><big>C</big>URRENT <big>P</big>ROJECTS</h2>
-                <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
-                <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
-                <li><a href="intl-school.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>S</big>CIMORES <big>I</big>nternational <big>S</big>chool</a></li>
-              </ul>
-          </li>
+          <li><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
+            <ul>
+              <h2><big>C</big>URRENT <big>P</big>ROJECTS</h2>
+              <li><a href="academy.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>S</big>CIMORES <big>A</big>cademy</a></li>
+              <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
+              <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
+              <li><a href="intl-school.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>S</big>CIMORES <big>I</big>ntl <big>S</big>chool</a></li>
+            </ul>
+        </li>
         </ul>
       </div>
       <div class="space_bord_split"></div>
@@ -124,13 +125,15 @@ ddaccordion.init({
       <div id="bobcontent3" class="switchgroup1"><img src="images/mng_pro_shashi.jpg" border="0" /></div>
       <h5 id="bobcontent4-title" class="handcursor">&nbsp;Anju Hemanth</h5>
       <div id="bobcontent4" class="switchgroup1"><img src="images/mng_pro_anju.jpg" border="0" /></div> -->
-<div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/hemanth.png" border="0" /></div>
+<!-- <div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/hemanth.png" border="0" /></div>
 <div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kamal.png" border="0" /></div>
 <div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/shiva.png" border="0" /></div>
 <div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/rakesh.png" border="0" /></div>
 <div style="padding-bottom:10px;"> <img style="width:615px;" src="images/prifiles/kartheek_1.png" border="0" /></div>
-<div style="padding-bottom:10px"> <img style="width:615px;" src="images/prifiles/gokul.png" border="0" /></div>
+<div style="padding-bottom:10px"> <img style="width:615px;" src="images/prifiles/gokul.png" border="0" /></div> -->
 
+<div style="padding-bottom:0px;"> <img style="width:615px;" src="images/prifiles/profile_1.png" border="0" /></div>
+<div style="padding-bottom:1px;"> <img style="width:615px;" src="images/prifiles/profile_2.png" border="0" /></div>
 
       <script type="text/javascript">
 // MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
