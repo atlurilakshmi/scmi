@@ -106,8 +106,8 @@ SCIMORES Educational Sector will be focussing on world-class international educa
 <!-- <div id="content_thumb_wrapper"> <a href="intl-school.php"><img src="images/current-proj.png" alt="SCIMORES INTL SCHOOL" title="SCIMORES INTL SCHOOL" /></a>
 <h2><a href="intl-school.php" style="color:#f1f0f0">SCIMORES ACADEMY LLC</a></h2>
 </div> -->
-<div id="content_thumb_wrapper"> <a href="academy.php"><img src="images/current-profiles/1.png" alt="SCIMORES ACADEMY" title="SCIMORES ACADEMy" /></a>
-<h2><a href="academy.php" style="color:#f1f0f0">SCIMORES ACADEMy</a></h2>
+<div id="content_thumb_wrapper"> <a href="academy.php"><img src="images/current-profiles/14.png" alt="SCIMORES ACADEMY" title="SCIMORES ACADEMy" /></a>
+<h2><a href="academy.php" style="color:#f1f0f0">SCIMORES ACADEMY</a></h2>
 </div>
 
 </div>

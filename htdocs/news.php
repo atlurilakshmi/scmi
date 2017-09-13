@@ -128,9 +128,9 @@ unset($_SESSION['lastclickedlink']);
                     <h2>NEWS & ANNOUNCEMENTS</h2>                  
                          
                     <br> 2017-07-19&nbsp;&nbsp;&nbsp;Submitted <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/CustomSubmit.aspx?typ=PAWS&tot=1&sel=5" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Site Plan to Department of Planning and Zoning</a>
-                    <br>2017-06-06&nbsp;&nbsp;&nbsp;
+                    <br> 2017-06-06&nbsp;&nbsp;
                     <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Special Exception Application Approved by Board of Supervisors</a>
-                    <br>2017-04-26&nbsp;&nbsp;&nbsp;
+                    <br> 2017-04-26&nbsp;&nbsp;
                     <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Speical Exception Application Approved by Planning Commission</a>
                     
                     <br> 2016-04-19&nbsp;&nbsp;&nbsp;<a href="pdf/acceptance.pdf" target="_blank" class="yellow">Rezoning & Special Exception Application Accepted by Department of Planning and Zoning</a>
@@ -142,10 +142,10 @@ unset($_SESSION['lastclickedlink']);
                     <br> 2015-06-30&nbsp;&nbsp;&nbsp;Completed Feasibility Study
                     <br> 2014-08-20&nbsp;&nbsp;&nbsp;Incorporated Scimores Academy LLC
                     <br> 2010-02-28&nbsp;&nbsp;&nbsp;Launching our corporate website - www.scimores.com
-                    <br/>2009-11-16&nbsp;&nbsp;&nbsp;Received <a href="viewpdf.php?doc=CCB" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Certificate for Commencement of Business</a>
-                    <br/>2009-11-04&nbsp;&nbsp;&nbsp;Received <a href="viewpdf.php?doc=CI" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Certificate of Incorporation</a>
-                    <br/>2009-09-01&nbsp;&nbsp;&nbsp;Company Name - SCIMORES CORPORATION (INDIA) LTD approved
-                    <br/>2009-07-01&nbsp;&nbsp;&nbsp;Starting Phase 1 - Scimores Incorporation Initiative
+                    <br> 2009-11-16&nbsp;&nbsp;&nbsp;Received <a href="viewpdf.php?doc=CCB" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Certificate for Commencement of Business</a>
+                    <br> 2009-11-04&nbsp;&nbsp;&nbsp;Received <a href="viewpdf.php?doc=CI" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Certificate of Incorporation</a>
+                    <br> 2009-09-01&nbsp;&nbsp;&nbsp;Company Name - SCIMORES CORPORATION (INDIA) LTD approved
+                    <br> 2009-07-01&nbsp;&nbsp;&nbsp;Starting Phase 1 - Scimores Incorporation Initiative
                     <script type="text/javascript">
                     // MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
                     // Call Instance.init() at the very end. REQUIRED
