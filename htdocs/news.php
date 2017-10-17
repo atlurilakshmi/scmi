@@ -147,6 +147,8 @@ unset($_SESSION['lastclickedlink']);
                     <br> 2009-11-04&nbsp;&nbsp;&nbsp;<a href="viewpdf.php?doc=CI" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Received Certificate of Incorporation</a>
                     <br> 2009-09-01&nbsp;&nbsp;&nbsp;Company Name - SCIMORES CORPORATION (INDIA) LTD approved
                     <br> 2009-07-01&nbsp;&nbsp;&nbsp;Starting Phase 1 - Scimores Incorporation Initiative
+                    
+                    
                     <script type="text/javascript">
                     // MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
                     // Call Instance.init() at the very end. REQUIRED
