@@ -45,7 +45,7 @@ unset($_SESSION['lastclickedlink']);
               <ul>
                 <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
                 <!-- heading -->
-                 <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
+              <!--  <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li> -->
               </ul>
           </li>
         </ul>

@@ -230,16 +230,16 @@
             msg1 += '<span class="health-label"> Health & Fitness Center </span>';
             msg1 += '<br>';
             msg1 += '<div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>';
-            msg1 += '<span class="end-help-text">In Planning Phase. Will be publishing</span>';
+            msg1 += '<span class="end-help-text">In Planning Phase. Click the below icon</span>';
             msg1 += '<br>';
-            msg1 += '<span class="end-help-text">the plan very soon.</span>';
+            msg1 += '<span class="end-help-text-1">to view the Plan.</span>';
             msg1 += '</div>';
 
             var msg2 = '<div id="msg" class="text-container">';
-            msg2 += '<span class="health-label"><span style="font-weight:400">SCIMORES</span> International School</span>';
+            msg2 += '<span class="health-label-3"><span style="font-weight:400">SCIMORES</span> International School</span>';
             msg2 += '<br>';
             msg2 += '<div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>';
-            msg2 += '<span class="end-help-text">In Planning Phase. Will be publishing</span>';
+            msg2 += '<span class="end-help-text-3">In Planning Phase. Will be publishing</span>';
             msg2 += '<br>';
             msg2 += '<span class="end-help-text">the plan very soon.</span>';
             msg2 += '</div>';
@@ -248,7 +248,7 @@
             msg3 += '<span class="health-label"><span style="font-weight:400">SCIMORES</span> Academy for Arts & Music</span>';
             msg3 += '<br>';
             msg3 += '<div style="text-align:center"><span class="city-first-letter">H </span><span class="city">erndon, VA</span></div>';
-            msg3 += '<span class="end-help-text">In Pre-Construction Phase. Click the below</span>';
+            msg3 += '<span class="end-help-text-2">In Pre-Construction Phase. Click the below</span>';
             msg3 += '<br>';
             msg3 += '<span class="end-help-text"> icon to view the Plan/Brochure.</span>';
             msg3 += '</div>';
@@ -784,3 +784,4 @@
     };
 
 })(window.jQuery || window.Zepto);
+

@@ -11,6 +11,14 @@ require_once("config.php");
     <link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/default.css" media="all" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .bottom-space{
+            padding-bottom:2px;
+        }
+        .item-space{
+            padding-left:5px;
+        }
+    </style>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/ddaccordion.js"></script>
     <script type="text/javascript">
@@ -72,7 +80,7 @@ unset($_SESSION['lastclickedlink']);
                             <li><a href="overview.php" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
                                 <ul>
                                     <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
-                                    <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
+                                  <!--  <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li> -->
                                 </ul>
                             </li>
                         </ul>
@@ -128,27 +136,57 @@ unset($_SESSION['lastclickedlink']);
                 <div id="content-inner">
                     <h2>NEWS & ANNOUNCEMENTS</h2>                  
                          
-                    <br> 2017-07-19&nbsp;&nbsp;&nbsp;<a href="http://ldsnet.fairfaxcounty.gov/ldsnet/CustomSubmit.aspx?typ=PAWS&tot=1&sel=5" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Submitted Site Plan to Department of Planning and Zoning</a>
-                    <br> 2017-06-06&nbsp;&nbsp;
-                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Special Exception Application Approved by Board of Supervisors</a>
-                    <br> 2017-04-26&nbsp;&nbsp;
-                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Speical Exception Application Approved by Planning Commission</a>
-                    
-                    <br> 2016-04-19&nbsp;&nbsp;&nbsp;<a href="pdf/acceptance.pdf" target="_blank" class="yellow">Rezoning & Special Exception Application Accepted by Department of Planning and Zoning</a>
-                    
-                    <br> 2016-02-26&nbsp;&nbsp;&nbsp;Rezoning & Special Exception Application Submitted to Department of Planning and Zoning
-                    <br> 2015-12-31&nbsp;&nbsp;&nbsp;Completed GDP & SE PLAT
-                    <br> 2015-06-30&nbsp;&nbsp;&nbsp;Completed Feasibility Study
-                    <br> 2015-03-01&nbsp;&nbsp;&nbsp;Project Kickoff
-                    <br> 2015-06-30&nbsp;&nbsp;&nbsp;Completed Feasibility Study
-                    <br> 2014-08-20&nbsp;&nbsp;&nbsp;Incorporated Scimores Academy LLC
-                    <br> 2010-02-28&nbsp;&nbsp;&nbsp;Launching our corporate website - www.scimores.com
-                    <br> 2009-11-16&nbsp;&nbsp;&nbsp;<a href="viewpdf.php?doc=CCB" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Received Certificate for Commencement of Business</a>
-                    <br> 2009-11-04&nbsp;&nbsp;&nbsp;<a href="viewpdf.php?doc=CI" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Received Certificate of Incorporation</a>
-                    <br> 2009-09-01&nbsp;&nbsp;&nbsp;Company Name - SCIMORES CORPORATION (INDIA) LTD approved
-                    <br> 2009-07-01&nbsp;&nbsp;&nbsp;Starting Phase 1 - Scimores Incorporation Initiative
-                    
-                    
+                    <br> 
+                      
+                    <div class="bottom-space">
+                    2017-10-20 <span class="item-space"><a href="pdf/acceptance.pdf" target="_blank" class="yellow">Purchased all 7.5 acres</a></span>
+                    </div>
+                    <div class="bottom-space">
+                    2017-07-19 <span class="item-space">  <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/CustomSubmit.aspx?typ=PAWS&tot=1&sel=5" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Submitted Site Plan to DPZ</a></span>
+                    </div>
+                    <div class="bottom-space">
+                    2017-06-06 <span class="item-space">
+                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Special Exception Application Approved by Board of Supervisors</a></span>
+                    </div>
+                    <div class="bottom-space">
+                    2017-04-26 <span class="item-space">
+                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Speical Exception Application Approved by Planning Commission</a></span>
+                    </div>
+                    <div class="bottom-space">
+                    2016-04-19 <span class="item-space"><a href="pdf/acceptance.pdf" target="_blank" class="yellow">Rezoning & Special Exception Application Accepted by DPZ</a></span>
+                    </div>
+                    <div class="bottom-space"> 2016-02-26 <span class="item-space">Rezoning & Special Exception Application Submitted to DPZ</span>
+                    </div>
+                    <div class="bottom-space">
+                     2015-12-31 <span class="item-space"> Completed GDP & SE PLAT</span>
+                    </div>
+                    <div class="bottom-space">
+                    2015-06-30 <span class="item-space">Completed Feasibility Study</span>
+                    </div>
+                    <div class="bottom-space">
+                    2015-03-01 <span class="item-space"> Project Kickoff</span>
+                    </div>
+                    <div class="bottom-space">
+                    2015-06-30 <span class="item-space"> Completed Feasibility Study</span>
+                    </div>
+                    <div>
+                   2014-08-20 <span class="item-space"> Incorporated Scimores Academy LLC</span>
+                    </div>
+                    <div class="bottom-space">
+                     2010-02-28 <span class="item-space"> Launching our corporate website - www.scimores.com</span>
+                    </div>
+                    <div class="bottom-space">
+                    2009-11-16 <span class="item-space"> <a href="viewpdf.php?doc=CCB" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Received Certificate for Commencement of Business</a></span>
+                    </div>
+                    <div class="bottom-space">
+                    2009-11-04 <span class="item-space"> <a href="viewpdf.php?doc=CI" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Received Certificate of Incorporation</a></span>
+                    </div>
+                    <div class="bottom-space">
+                    2009-09-01 <span class="item-space"> Company Name - SCIMORES CORPORATION (INDIA) LTD approved</span>
+                    </div>
+                    <div class="bottom-space">
+                   2009-07-01 <span class="item-space"> Starting Phase 1 - Scimores Incorporation Initiative</span>
+                    </div>
                     <script type="text/javascript">
                     // MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
                     // Call Instance.init() at the very end. REQUIRED
@@ -173,3 +211,4 @@ unset($_SESSION['lastclickedlink']);
 </body>
 
 </html>
+

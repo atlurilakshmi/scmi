@@ -4,7 +4,9 @@ if(!isset($_SESSION['user'])){
 header('Location: login.php'); exit;
 }
 
-session_unregister('shareauthcode');
+//session_unregister('shareauthcode');
+
+unset($_SESSION['shareauthcode']);
 $userid=mysql_result(mysql_query("select sci_cust_id from $tb_user where sci_username='".$_SESSION['user']."'"),0);
 
 //$tdate=date('Y-m-d');
@@ -421,7 +423,7 @@ function sellsubmit()
 }
 </script>
 <style type="text/css">
-<!--
+
 #navi_inner1 {
 	background: url(../images/navi_inner_bg.gif) center repeat;
 	border:2px solid #323131;
@@ -431,7 +433,6 @@ function sellsubmit()
 	padding: 0;
 	width: 205px;
 	}
--->
 </style>
 </head>
 <body>
@@ -458,7 +459,7 @@ function sellsubmit()
                     <ul>
                       <li><a href="fact-sheet.php"><span class="let_big">F</span>act <span class="let_big">S</span>heet</a></li>
                       <li><a href="organization-stru.php"><span class="let_big">O</span>rganization <span class="let_big">S</span>tructure</a></li>
-                      <li><a href="managemanent-pro.php"><span class="let_big">M</span>anagement <span class="let_big">P</span>rofiles</a></li>
+                      <!--  <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li> -->
                       <li><a href="awards.php"><span class="let_big">A</span>wards &amp; <span class="let_big">R</span>ecognitions</a></li>
                     </ul>
                   <!-- heading -->

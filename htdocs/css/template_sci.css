@@ -1,9 +1,9 @@
 /*-------------------------------------------------/
- * Design		Kalaivannan.P
- * CSS level 	2.0
- * Year			2009
- * Credit		orizen solutions
- * Client		www.scimores.com
+ * Design       Kalaivannan.P
+ * CSS level    2.0
+ * Year         2009
+ * Credit       orizen solutions
+ * Client       www.scimores.com
  * This document validates as CSS level 2.0
  -------------------------------------------------*/
 
@@ -582,14 +582,14 @@ ul.simple {
 
 
 /*#port_scr-box {
-	display: block;
-	float: left;
-	height: 350px;
-	width: 140px;
-	margin: 0 0 5px 0;
-	overflow: auto;	/* IMPORTANT! 
-	position: relative;
-	}
+    display: block;
+    float: left;
+    height: 350px;
+    width: 140px;
+    margin: 0 0 5px 0;
+    overflow: auto; /* IMPORTANT! 
+    position: relative;
+    }
 */
 
 #port_scr_box img {
@@ -1147,8 +1147,1917 @@ ul.simple {
 
 
 /*.ch {
-	font-size: 16pt;
-	}
+    font-size: 16pt;
+    }
+*/
+
+.let_big {
+    font-size: 14px;
+}
+
+big {
+    font: normal 14px calibri;
+}
+
+.link_head {
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+    font: bold 12px Calibri;
+    text-align: left;
+}
+
+.list_1,
+.list_2 {
+    background-color: #404040;
+    color: #fff;
+    font: normal 12px Calibri;
+    height: auto;
+    width: 128px;
+}
+
+.list_3 {
+    background-color: #404040;
+    color: #fff;
+    font: normal 12px Calibri;
+    height: auto;
+    width: 50px;
+}
+
+.list_4 {
+    background-color: #404040;
+    color: #fff;
+    font: normal 12px Calibri;
+    height: auto;
+    width: 205px;
+}
+
+.login_cbox {
+    height: 20px;
+    padding: 0 0 0 15px;
+    text-align: left;
+    width: 30px;
+}
+
+.login_input {
+    color: #333;
+    font: bold 11px Geneva, Arial, Helvetica, sans-serif;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 110px;
+}
+
+checkbox {
+    padding: 0px;
+    margin: 0px;
+}
+
+.login_txt {
+    color: #f1f0f0;
+    font: normal 12px Calibri;
+    height: 20px;
+    line-height: 1.7em;
+    padding-left: 0;
+    text-align: left;
+    width: auto;
+}
+
+.nofill,
+.inactive {
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+}
+
+.fill,
+.active {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    position: relative
+}
+
+.formbutton {
+    font: bold 12px Calibri;
+    height: 20px;
+    background-color: #AAAAAA;
+    border: 1px solid #000000
+}
+
+.m_err_msg {
+    color: #fc0;
+    float: left;
+    font: normal 12px Calibri;
+    text-align: justify;
+    height: auto;
+    line-height: 1.2em;
+    padding: 0 0 5px 0;
+    width: 540px;
+}
+
+.manag_space {
+    height: 15px;
+}
+
+.manag_medium_space {
+    height: 10px;
+}
+
+.manag_less_space {
+    height: 5px;
+}
+
+.manag_tbl {
+    color: #fff;
+    float: left;
+    font: normal 12px Calibri;
+    height: auto;
+    width: 600px;
+    margin: 0px;
+}
+
+.manag_tr {
+    height: auto;
+    width: 145px;
+}
+
+.manag_tr2 {
+    height: auto;
+    width: 50px;
+}
+
+.manag_tr3 {
+    height: auto;
+    width: 280px;
+}
+
+.manag_tr4 {
+    height: auto;
+    width: 80px;
+}
+
+.manag_tr5 {
+    height: auto;
+    width: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* loginbox message style */
+
+.msg-top {
+    background: url(../images/login_msg_top.png) center no-repeat;
+    color: #f1f0f0;
+    font: normal 12px Calibri;
+    height: 67px;
+    text-align: center;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login button style */
+
+.log_but {
+    margin-left: 8px;
+}
+
+.my_menu {
+    background: #595959;
+    color: #fff;
+    display: block;
+    font: normal 12px Calibri;
+    height: 17px;
+    margin-left: 10px;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 195px;
+}
+
+.port_content {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: #333;
+    font: normal 10px tahoma;
+    background: #fff;
+}
+
+.port_head-2 {
+    background: #7f7f7f;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: #fff;
+    font: normal 12px Calibri;
+}
+
+.port_head {
+    background: #272727;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    color: #fff;
+    font: normal 12px Calibri;
+}
+
+.cn {
+    width: 108px
+}
+
+.no {
+    width: 17px
+}
+
+.ns {
+    width: 102px;
+}
+
+.pd,
+.cv {
+    width: 82px;
+}
+
+.pv {
+    width: 92px;
+}
+
+.sp {
+    width: 86px;
+}
+
+.port_space {
+    background: #1f1f1f;
+    height: 6px;
+}
+
+.port_tbl {
+    border-left: 1px solid #ccc;
+    font: normal 12px Calibri;
+    margin: 0px;
+    text-align: center;
+    width: 603px;
+}
+
+.port_tbl_head {
+    border-left: 1px solid #ccc;
+    font: normal 12px Calibri;
+    margin: 0px;
+    text-align: center;
+    width: 625px;
+}
+
+.port_weltxt {
+    color: #fff;
+    font: bold 11px "Trebuchet MS";
+    text-align: left;
+}
+
+.reg_head {
+    color: #f1f0f0;
+    font: bold 14px Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+}
+
+.regiester-tbl {
+    color: #f1f0f0;
+    float: left;
+    font: normal 12px Calibri;
+    height: auto;
+    margin: 0;
+    text-align: left;
+    width: 600px;
+}
+
+.space {
+    float: left;
+    height: 27px;
+    width: 195px;
+    /*without border style*/
+    margin-left: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navigation split line style */
+
+.space_bord_split {
+    width: 75px;
+    float: left;
+    height: 27px;
+    width: 195px;
+    background: url(../images/split_line.png) center no-repeat;
+    margin-left: 5px
+}
+
+.space_bord {
+    width: 75px;
+    float: left;
+    height: 27px;
+    width: 195px;
+    border-top: 1px solid #666666;
+    /*with border style*/
+    margin: 0 0 0 5px
+}
+
+.star {
+    font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.switchgroup1 {
+    color: #fff;
+    font: normal 12px Calibri;
+    height: auto;
+    margin-left: 0;
+    padding: 5px 0 0;
+    text-align: justify;
+    width: 585px;
+}
+
+.thumb_txt {
+    color: #fff;
+    font: bold 12px Calibri;
+    text-align: left;
+}
+
+.thumbnail_head {
+    color: #fff;
+    font: normal 12px "Book Antiqua";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.thumbnail_img {
+    padding: 0;
+    text-align: center;
+}
+
+.yellow {
+    color: #fc0;
+    background: transparent;
+}
+
+a img.port_scr-box {
+    border: 1px solid #333;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+a:hover img.port_scr-box {
+    background: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sitemap linklist style ----------------------------------------------------- */
+
+.sitemap_tbl {
+    width: 600px;
+    height: auto;
+    color: #CCCCCC;
+    font: normal 12px Calibri;
+}
+
+.sitemap_tbl a,
+.sitemap_tbl a:link,
+.sitemap_tbl a:visited {
+    font: normal 12px;
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+.sitemap_tbl a:hover {
+    font: normal 12px;
+    color: #CCCCCC;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* no padding & no border */
+
+.sitemap_td {
+    width: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* no border */
+
+.sitemap_td_2 {
+    width: 170px;
+    padding-left: 10px;
+    border-left: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* with border style */
+
+.sitemap_td_line {
+    width: 170px;
+    padding-left: 10px;
+    border-left: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BACKDROP IMAGES CSS ***************************************************************  */
+
+.fashion_backdrop {
+    background: url(../images/fashion_img.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+.architec_backdrop {
+    background: #0d0d0d url(../images/architec.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+.recreat_backdrop {
+    background: #0d0d0d url(../images/recreat.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    display: compact;
+    background-size: 100% 100vh;
+}
+
+.school_backdrop {
+    background: #0d0d0d url(../images/school.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+.company_backdrop {
+    background: #0d0d0d url(../images/company.jpg) top center no-repeat;
+    width: auto;
+    height: auto;
+    background-size: 100% 100vh;
+}
+
+.register_backdrop {
+    background: url(../images/register.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+.contact_backdrop {
+    background: url(../images/contact.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+.pressroom_backdrop {
+    background: url(../images/pressroom.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+.news_backdrop {
+    background: url(../images/news.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+.portfolio_backdrop {
+    background: url(../images/portfolio.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* backdrop images End ---------------------------------------------------------- */
+
+
+/* intl school css ***************************************************** */
+
+.intl-school_img_wrapper {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.intl-school_img {
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+.intl-school_img img {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #c3c3cd;
+}
+
+.intl-school_txt {
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+.intl_button {
+    width: 303px;
+    height: 18px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* intl school css ***************************************************** *//*-------------------------------------------------/
+ * Design       Kalaivannan.P
+ * CSS level    2.0
+ * Year         2009
+ * Credit       orizen solutions
+ * Client       www.scimores.com
+ * This document validates as CSS level 2.0
+ -------------------------------------------------*/
+
+body {
+    background: #0d0d0d;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h4 {
+    display: block;
+    font: normal 10px "Trebuchet MS";
+    text-transform: capitalize;
+    color: white;
+    margin: 0 0 15px 0;
+    text-align: center;
+    width: 140px;
+}
+
+h5 {
+    display: block;
+    font: normal 14px Calibri;
+    color: #FFF;
+    margin: 2px 2px 2px 0;
+    text-align: left;
+}
+
+li {
+    background: url(../images/bullat.png) no-repeat;
+    line-height: 1.5em;
+    padding: 0 0 0 15px;
+}
+
+li.simple {
+    line-height: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul.simple {
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content-inner {
+    background: url(../images/content_inner_bg.png) center repeat;
+    color: #f1f0f0;
+    float: left;
+    font: normal small Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    min-height: 560px;
+    width: 615px;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0 20px 10px;
+}
+
+#content-inner-3 {
+    background: url(../images/content_inner_bg.png) center repeat;
+    color: #f1f0f0;
+    float: left;
+    font: normal small Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    height: auto;
+    width: 615px;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0 20px 10px;
+}
+
+#content-login-inner {
+    background: url(../images/content_inner_bg.png) center repeat;
+    color: #f1f0f0;
+    float: left;
+    font: normal small Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    height: 560px;
+    width: 615px;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0 20px 10px;
+}
+
+#content-inner_alba {
+    background: url(../images/content_inner_bg.png) center repeat;
+    color: #f1f0f0;
+    float: left;
+    font: normal small Geneva, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    height: auto;
+    width: 615px;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0 20px 10px;
+}
+
+
+#content-inner a:hover {
+    text-decoration: underline;
+}
+
+#content-inner a:link,
+#content-inner a:visited,
+.my_menu a:link,
+.my_menu a:visited,
+.my_menu a:hover {
+    text-decoration: underline;
+}
+
+#content-inner h2 {
+    color: #fff;
+    display: block;
+    font: normal 16pt Georgia, "Times New Roman", Times, serif;
+    margin: 22px 0 25px 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#content-inner-3 a:hover {
+    text-decoration: underline;
+}
+
+#content-inner-3 a:link,
+#content-inner-3 a:visited,
+.my_menu a:link,
+.my_menu a:visited,
+.my_menu a:hover {
+    text-decoration: underline;
+}
+
+#content-inner-3 h2 {
+    color: #fff;
+    display: block;
+    font: normal 16pt Georgia, "Times New Roman", Times, serif;
+    margin: 22px 0 25px 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#content-login-inner h2 {
+    color: #fff;
+    display: block;
+    font: normal 16pt Georgia, "Times New Roman", Times, serif;
+    margin: 22px 0 0 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#content-inner-2 {
+    background: url(../images/content_inner_bg.png) center repeat-y;
+    color: #fff;
+    float: left;
+    font: bold small/2.7em Geneva, Arial, Helvetica, sans-serif;
+    height: auto;
+    width: 615px;
+    margin: 0;
+    padding: 0 20px 10px;
+    text-align: justify;
+}
+
+#content-inner-2 h2 {
+    color: #fff;
+    display: block;
+    font: normal 16pt Georgia, "Times New Roman", Times, serif;
+    margin: 0 0 25px 0;
+    padding: 22px 0 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#content_wrap {
+    background: url(../images/shadow_bg.png) left repeat;
+    float: left;
+    height: auto;
+    margin: 0 0 0 15px;
+    padding: 10px;
+    width: 656px;
+}
+
+#content_wrap h3 {
+    color: #fff;
+    display: block;
+    font: normal 12pt Georgia, "Times New Roman", Times, serif;
+    margin: 0px 0 32px 0;
+    padding: 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTENT THUMBNAIL CSS ******************************************************** */
+
+#content_thumb_wrapper {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 30px 25px 0;
+    padding: 3px;
+    border: 2px solid #1d1c17;
+    background: url(../images/shadow_bg.png) center repeat;
+}
+
+#content_thumb_wrapper_2 {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 30px 25px 0;
+    padding: 3px;
+    border: 2px solid #1d1c17;
+    background: url(../images/shadow_bg.png) center repeat;
+}
+
+#content_thumb_wrapper_3 {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 0px 25px 0;
+    padding: 3px;
+    border: 2px solid #1d1c17;
+    background: url(../images/shadow_bg.png) center repeat;
+}
+
+.thumb_head {
+    height: auto;
+    font: bold 16px Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px;
+    margin: 25px 0 25px 0;
+}
+
+#content_thumb_wrapper h2 {
+    font: normal 14px Calibri;
+    text-align: center;
+    text-decoration: none;
+    color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+    background: url(../images/gl_button.jpg) center no-repeat;
+    width: 173px;
+    height: 39px;
+    line-height: 2.5em;
+}
+
+#content_thumb_wrapper_2 h2 {
+    font: normal 14px Calibri;
+    text-align: center;
+    text-decoration: none;
+    color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+    background: url(../images/gl_button.jpg) center no-repeat;
+    width: 173px;
+    height: 39px;
+    line-height: 2.5em;
+}
+
+#content_thumb_wrapper_3 h2 {
+    font: normal 14px Calibri;
+    text-align: center;
+    text-decoration: none;
+    color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+    background: url(../images/gl_button.jpg) center no-repeat;
+    width: 173px;
+    height: 39px;
+    line-height: 2.5em;
+}
+
+#content_thumb_wrapper img {
+    width: 173px;
+    height: 190px;
+    border: 0;
+}
+
+#content_thumb_wrapper_2 img {
+    width: 173px;
+    height: 190px;
+    border: 0;
+}
+
+#content_thumb_wrapper_3 img {
+    width: 173px;
+    height: 190px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTENT THUMBNAIL CSS ******************************************************** */
+
+.overview {
+    width: 585px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#footer {
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px 0 0 0;
+    width: 938px;
+}
+
+#footer-home {
+    height: 50px;
+    width: 100%;
+    padding: 5px 0 0 0;
+    margin: auto;
+    background: #000000;
+}
+
+#home_flash {
+    float: left;
+    width: 100%;
+    height: 610px;
+    margin: 0px;
+    height: 0px;
+}
+
+#intro {
+    float: left;
+    height: 350px;
+    margin: 0 0 100px 0;
+    width: 620px;
+}
+
+#intro_wrap {
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#loading {
+    height: 200px;
+    margin: 200px auto 0;
+    width: 300px;
+}
+
+#login {
+    float: none;
+    font: normal 12px Geneva, Arial, Helvetica, sans-serif;
+    height: auto;
+    margin: 18px;
+    width: auto;
+}
+
+#login_stbl {
+    height: inherit;
+    width: 348px;
+}
+
+#login_tbl {
+    background: url(../images/login_bg.png) center no-repeat;
+    color: #fff;
+    font: normal 12px Calibri;
+    height: 310px;
+    margin-top: 70px;
+    margin-left: 130px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 348px;
+}
+
+#login_tbl a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+#login_tbl a:link,
+#login_tbl a:visited {
+    color: #ccc;
+    text-decoration: none;
+}
+
+#login_tbl h5 {
+    border-bottom: 2px solid #383534;
+    color: #f1f0f0;
+    font: n-ormal 12px Calibri;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    height: 84px;
+    margin: 0;
+    width: 203px;
+}
+
+#navi_inner_education {
+    background: url(../images/navi_inner_bg.gif) center repeat;
+    border: 2px solid #323131;
+    float: left;
+    height: 792px;
+    margin: 0;
+    padding: 0;
+    width: 205px;
+}
+
+#navi_inner {
+    background: url(../images/navi_inner_bg.gif) center repeat;
+    border: 2px solid #323131;
+    float: left;
+    height: 566px;
+    margin: 0;
+    padding: 0;
+    width: 205px;
+}
+
+#navi_mnu {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 205px;
+}
+
+#navi_wrapper {
+    background: url(../images/shadow_bg.png) center repeat;
+    float: left;
+    height: auto;
+    margin: 0 0 5px;
+    padding: 10px;
+    width: auto;
+}
+
+#navi_wrapper2 {
+    background: url(../images/shadow_bg.png) center repeat;
+    float: left;
+    height: auto;
+    left: 30px;
+    margin: 20px 0 5px 0;
+    padding: 10px;
+    position: absolute;
+    width: auto;
+}
+
+#port_manage_butt {
+    background: url(../images/manag_butt.png) center no-repeat;
+    color: #000;
+    float: right;
+    font: bold 10px "Book Antiqua";
+    height: 25px;
+    line-height: 2.3em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 119px;
+}
+
+#port_manage_butt a:hover,
+#port_manage_butt2 a:hover,
+#submit a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#port_manage_butt a:link,
+#port_manage_butt a:visited,
+#port_manage_butt2 a:link,
+#port_manage_butt2 a:visited,
+#submit a:link,
+#submit a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+#port_manage_butt2 {
+    background: url(../images/manag_butt.png) center no-repeat;
+    color: #000;
+    float: none;
+    font: bold 9px Calibri;
+    height: 25px;
+    line-height: 2.6em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 119px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO SCROLABLE BOX STYLE */
+
+
+/*#port_scr-box {
+    display: block;
+    float: left;
+    height: 350px;
+    width: 140px;
+    margin: 0 0 5px 0;
+    overflow: auto; /* IMPORTANT! 
+    position: relative;
+    }
+*/
+
+#port_scr_box img {
+    width: 118px;
+    height: 67px;
+}
+
+#submenu {
+    float: left;
+    height: auto;
+    margin: 85px 0 0;
+    width: 205px;
+}
+
+#submit {
+    color: #000;
+    float: none;
+    font: bold 10px "Book Antiqua";
+    height: 23px;
+    line-height: 2.2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 81px;
+}
+
+#template_home {
+    width: 1003px;
+    height: 610px;
+    padding: 0;
+    margin: auto;
+}
+
+#template_main {
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 922px;
+}
+
+#thumbnail {
+    float: left;
+    width: 550px;
+    height: 140px;
+    margin: 0;
+    vertical-align: bottom;
+    top: 430px;
+    position: absolute;
+}
+
+#thumbnail-home {
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: visible;
+    float: right;
+}
+
+#thumbnail_wrap {
+    float: left;
+    height: auto;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    width: auto;
+}
+
+.address {
+    width: 98%;
+    font: normal 12px Calibri;
+    text-align: center;
+    color: #999;
+    margin: 0;
+    /* padding: 25px 0 20px;*/
+    padding: 18px 0px 10px 18px;
+    float: left;
+}
+
+.address2 {
+    width: 98%;
+    font: normal 11px Calibri;
+    text-align: center;
+    color: #999;
+    margin: 0;
+    padding: 0px 0 20px;
+    float: left;
+}
+
+.archtect_intro {
+    color: #fff;
+    font: bold 14px Papyrus;
+    line-height: 1.8em;
+    margin: 180px 0 200px 0;
+    text-align: center;
+}
+
+.b-top {
+    border-top: 2px solid #383534;
+}
+
+.blue {
+    color: #00c;
+    text-decoration: none
+}
+
+.bod {
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+}
+
+.bod-box {
+    background: #dfdfff;
+    color: #000;
+    font: normal 11px Geneva, Arial, Helvetica, sans-serif;
+    height: auto;
+    width: 180px;
+    padding: 3px;
+    text-align: center;
+}
+
+.bod-box-head {
+    color: #960;
+    font: bold 12px Geneva, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.bod-box-space {
+    height: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.err_msg {
+    color: #fc0;
+    float: left;
+    font: normal 12px Calibri;
+    height: auto;
+    line-height: 1.2em;
+    padding: 0;
+    text-align: justify;
+    width: 603px;
+}
+
+.err_msg a {
+    color: #fc0;
+    text-decoration: underline;
+}
+
+.err_msg a:hover {
+    color: #fc0;
+    text-decoration: underline;
+}
+
+.err_msg_login {
+    color: #fc0;
+    font: normal 12px Calibri;
+    height: 20px;
+    line-height: 1.2em;
+    padding: 0;
+    text-align: center;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* forgot password err msg style*/
+
+.err_msg_forgot {
+    color: #fc0;
+    font: normal 12px Calibri;
+    height: 20px;
+    line-height: 1.2em;
+    padding: 0;
+    text-align: justify;
+    width: auto;
+}
+
+.err_msg_forgot a {
+    color: #fc0;
+    text-decoration: underline;
+}
+
+.err_msg_forgot a:hover {
+    color: #fc0;
+    text-decoration: underline;
+}
+
+.forgot_tbl_wrapper {
+    margin: 50px auto;
+    width: 400px;
+}
+
+.forgot_tbl {
+    border: 5px solid #5c5e5e;
+    color: #fff;
+    font: normal 12px Calibri;
+    height: auto;
+    margin: 0;
+    text-decoration: none;
+    width: 400px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form display error */
+
+.form_error {
+    color: #fc0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* homepage footer link style */
+
+.footer-link2 {
+    color: #999;
+    float: left;
+    font: normal 12px Calibri;
+    height: auto;
+    text-align: left;
+    text-decoration: none;
+    width: auto;
+    margin-right: 0;
+}
+
+.footer-link2 a:hover,
+.footer-link3 a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-link2 a:link,
+.footer-link2 a:visited {
+    color: #cdced0;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer-link3 a:link,
+.footer-link3 a:visited {
+    color: #cdced0;
+    text-decoration: none;
+}
+
+.footer-link2home {
+    color: #fff;
+    float: left;
+    font: normal 12px Calibri;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    background: ;
+}
+
+.footer-link2home a:link,
+.footer-link2home a:visited {
+    width: auto;
+    height: auto;
+    color: #cdced0;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.footer-link2home a:hover {
+    color: #cdced0;
+    text-decoration: none;
+}
+
+.footer-link3home a:link,
+.footer-link3home a:visited,
+.footer-link3home a:hover {
+    color: #cdced0;
+    text-decoration: none;
+}
+
+.footer-link3 {
+    color: #fff;
+    float: right;
+    font: normal 12px Calibri;
+    height: auto;
+    text-align: left;
+    text-decoration: none;
+    width: 150px;
+}
+
+.footer-link3home {
+    color: #fff;
+    float: right;
+    font: normal 12px Calibri;
+    height: auto;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    width: auto;
+}
+
+.glossymenu {
+    background-color: #595959;
+    border: 0 solid #9a9a9a;
+    border-bottom-width: 0;
+    margin: 0;
+    padding: 10px 0;
+    width: 205px;
+}
+
+.glossymenu a.menuitem {
+    background: #595959;
+    color: #fff;
+    display: block;
+    font: normal 12px Georgia, "Times New Roman", Times, serif;
+    padding: 4px 0 4px 25px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.glossymenu a.menuitem .statusicon {
+    border: none;
+    position: absolute;
+    right: 185px;
+    top: 5px;
+}
+
+.glossymenu a.menuitem:hover {
+    background-image: url(glossyback2.gif);
+}
+
+.glossymenu a.menuitem:visited,
+.glossymenu .menuitem:active {
+    color: #fff;
+}
+
+.glossymenu .submenu {
+    background: #595959;
+    height: auto;
+    width: 205px;
+}
+
+.glossymenu .submenu ul {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.glossymenu .submenu ul li {
+    border-bottom: 0 solid blue;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.glossymenu .submenu ul li a {
+    color: #fff;
+    display: block;
+    font: normal 12px Calibri;
+    margin-left: 0;
+    padding: 2px 0;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.glossymenu .submenu ul li a:hover,
+.cur_sub_mnu {
+    color: #fff;
+}
+
+.handcursor {
+    cursor: pointer;
+}
+
+.home_thumb {
+    left: 260px;
+    position: absolute;
+    top: 461px;
+}
+
+.input_1 {
+    background-color: #404040;
+    border: 1px solid #ccc;
+    color: #fff;
+    font: normal 11px Calibri;
+    height: 12px;
+    padding: 3px;
+    width: 120px;
+}
+
+.input_2 {
+    background-color: #404040;
+    border: 1px solid #ccc;
+    color: #fff;
+    font: normal 11px Calibri;
+    padding: 3px;
+    width: 300px;
+}
+
+.input_3 {
+    background-color: #404040;
+    border: 1px solid #ccc;
+    color: #fff;
+    font: normal 12px Calibri;
+    padding: 3px;
+    width: 260px;
+}
+
+.input_4 {
+    background-color: #404040;
+    border: 1px solid #ccc;
+    color: #fff;
+    font: normal 12px Calibri;
+    padding: 1px;
+    width: 200px;
+    height: 15px;
+}
+
+.input_5 {
+    background-color: #404040;
+    border: 1px solid #ccc;
+    color: #fff;
+    font: normal 11px Calibri;
+    height: 12px;
+    padding: 3px;
+    width: 100px;
+}
+
+.input_6 {
+    background-color: #404040;
+    border: 1px solid #ccc;
+    color: #fff;
+    font: normal 11px Geneva, Arial, Helvetica, sans-serif;
+    padding: 1px;
+    width: 200px;
+    height: 15px;
+}
+
+.input_forgot {
+    background-color: #404040;
+    border: 1px solid #ccc;
+    color: #fff;
+    font: normal 12px Calibri;
+    padding: 3px;
+    width: 150px;
+}
+
+.intro_main {
+    height: 100%;
+    background: #262626;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* content heading style */
+
+
+/*.ch {
+    font-size: 16pt;
+    }
 */
 
 .let_big {
@@ -1908,3 +3817,4 @@ a:hover img.port_scr-box {
 
 
 /* intl school css ***************************************************** */
+

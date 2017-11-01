@@ -8,6 +8,8 @@ require_once("config.php");
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SCIMORES Corporation</title>
     <link href="css/template_sci.css" rel="stylesheet" type="text/css" />
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/vegas.css" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
@@ -27,7 +29,6 @@ require_once("config.php");
         width: 922px;
     }
 
-
     .company_backdrop {
         background: none;
     }
@@ -46,7 +47,7 @@ require_once("config.php");
 
     .img-div:hover {
         width: 80px;
-        padding: 0 15px;
+        padding: 0 25px;
         -webkit-transform: scale(1.2);
         -moz-transform: scale(1.2);
         -ms-transform: scale(1.2);
@@ -95,26 +96,64 @@ require_once("config.php");
 
     .health-label {
         color: #f3f0f0;
-        font-family: 'Segoe UI', 'Calibri';
-        font-size: 17px
+         font-family: "Times New Roman";
+        font-weight: lighter;
+        font-size: 15.5px;
+    }
+
+     .health-label-1 {
+        color: #f3f0f0;
+         font-family: "Times New Roman";
+        font-weight: lighter;
+        font-size: 16px;
+    }
+
+    .health-label-3 {
+        color: #f3f0f0;
+       font-family: "Times New Roman";
+        font-weight: lighter;
+        font-size: 16.4px
     }
 
     .city-first-letter {
         color: #f3f0f0;
-        font-size: 27px
+        font-size: 23px
     }
 
     .city {
         color: #f3f0f0;
-        font-family: 'Segoe UI', 'Calibri';
+         font-family: "Times New Roman";
+        font-weight: lighter;
         font-size: 19px;
         margin-left: -5px
     }
 
     .end-help-text {
         color: #f3f0f0;
-        font-family: 'Segoe UI', 'Calibri';
+         font-family: "Times New Roman";
+        font-weight: lighter;
+        font-size: 14.5px
+    }
+
+    .end-help-text-1 {
+        color: #f3f0f0;
+         font-family: "Times New Roman";
+        font-weight: lighter;
         font-size: 14px
+    }
+
+    .end-help-text-2 {
+        color: #f3f0f0;
+         font-family: "Times New Roman";
+        font-weight: lighter;
+        font-size: 14.4px
+    }
+
+    .end-help-text-3 {
+        color: #f3f0f0;
+         font-family: "Times New Roman";
+        font-weight: lighter;
+        font-size: 14.4px
     }
 
     .menu-img-container .img-div {
@@ -129,7 +168,6 @@ require_once("config.php");
     .menu-img-container .img-div span.txt1 {
         font-size: 19px;
     }
-
 
     .menu-img-container .img-div span.txt2 {
         color: #f3f0f0;
@@ -159,7 +197,7 @@ require_once("config.php");
                             <li class="cur_main_mnu"><a href="overview.php" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
                                 <ul>
                                     <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
-                                    <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
+                                   <!--  <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li> -->
                                 </ul>
                             </li>
                         </ul>
@@ -211,113 +249,138 @@ require_once("config.php");
                     <!-- CSS VERTICAL MENU END -->
                 </div>
             </div>
-            <!-- First text message -->
-            <div id="msg" class="text-container">
-                <span class="gold-label">  Gold Lip</span>
-                <span class="health-label">Health & Fitness Center </span>
-                <br>
-                <div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>
-                <span class="end-help-text">In Planning Phase. Will be publishing</span>
-                <br>
-                <span class="end-help-text">the plan very soon.</span>
+            <div class="parent">
+                <div class="img">
+                    <img class="image-class img1" id="image-head" src="./images/shutterstock.jpg">
+                </div>
+                <!-- First text message -->
+                <div id="msg">
+                    <div class="text-container">
+                        <span class="gold-label">  Gold Lip</span>
+                        <span class="health-label-1">Health & Fitness Center </span>
+                        <br>
+                        <div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>
+                        <span class="end-help-text">In Planning Phase. Click the below icon</span>
+                        <br>
+                        <span class="end-help-text-1">to view the Plan.</span>
+                    </div>
+                </div>
+    
+                <!--dont remove this line-->
+                <div class="menu-img-container">
+                    <div class="img-div">
+                        <span class="txt1">C</span>
+                        <span class="txt2">HENNAI</span>
+                        <br>
+                        <a href="goldlip.php" class="item">
+                                <img width="75" height="75" src="images/auditorium.png" alt="no image">
+                            </a>
+                    </div>
+                    <div class="img-div">
+                        <span class="txt1">C</span>
+                        <span class="txt2">HENNAI</span>
+                        <br>
+                        <a href="intl-school.php" class="item">
+                                <img width="75" height="75" src="images/shutterstock_1.jpg" alt="no image">
+                            </a>
+                    </div>
+                    <div class="img-div">
+                        <span class="txt1">H</span>
+                        <span class="txt2">ERNDON</span>
+                        <br>
+                        <a href="intl-school.php" class="item">
+                                <img width="75" height="75" src="images/shutterstock.jpg" alt="no image"></a>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <!-- template main end -->
             </div>
-            <!--dont remove this line-->
-            <div class="menu-img-container">
-                <div class="img-div">
-                    <span class="txt1">C</span>
-                    <span class="txt2">HENNAI</span>
-                    <br>
-                    <a href="goldlip.php" class="item">
-                <img width="75" height="75" src="images/shutterstock.jpg" alt="no image">
-              </a>
-                </div>
-                <div class="img-div">
-                    <span class="txt1">C</span>
-                    <span class="txt2">HENNAI</span>
-                    <br>
-                    <a href="intl-school.php" class="item">
-                  
-                <img  width="75" height="75" src="images/shutterstock_1.jpg" alt="no image">
-              </a>
-                </div>
-                <div class="img-div">
-                    <span class="txt1">H</span>
-                    <span class="txt2">ERNDON</span>
-                    <br>
-                    <a href="intl-school.php" class="item">
-                  
-                <img  width="75" height="75" src="images/auditorium.png" alt="no image"></a>
-                </div>
+            <div class="footer">
+                <TABLE cellSpacing=0 cellPadding=0 width="100%" bgcolor="#0d0d0d">
+                    <TBODY>
+                        <TR>
+                            <TD style="PADDING-LEFT: 52px" vAlign=center align=center width="65%">
+                                <p>&nbsp;</p>
+                                <p>
+                                    <div class="footer-link2home">
+                                        <a href="press.php">Press Room</a><a href="foundation.php">Foundations</a><a href="partnership.php">Partnerships</a><a href="portfolio.php">Portfolio</a><a href="privacy.php">Privacy Policy</a><a href="sitemap.php">Site Map</a> </div>
+                            </TD>
+                            <TD vAlign=center align=right width="13%">
+                                <p>&nbsp;</p>
+                                <p>
+                                    <div class="footer-link3">
+                                        <?php if(isset($_SESSION['user'])){ ?>
+                                        <a href="my-port.php" target="_self">My Portfolio</a> | <a href="logout.php" target="_self">Logout</a>
+                                        <?php } else { ?>
+                                        <a href="login.php" target="_self">Members Login</a> | <a href="register.php" target="_self">Register</a>
+                                        <?php } ?>
+                                    </div>
+                                </p>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD align=middle>
+                                <div class="address">
+                                    <br/> 8250 Westpark Drive, #461, McLean, VA-22102, USA | Tel: +1-(732) 397-0766 | Email: info@scimores.com
+                                    <br/> Copyright &copy; 2010 SCIMORES Corporation</div>
+                            </TD>
+                        </TR>
+                    </TBODY>
+                </TABLE>
             </div>
-            <div class="clear-fix"></div>
-        </div>
-        <!-- template main end -->
-        <TABLE cellSpacing=0 cellPadding=0 width="100%" bgcolor="#0d0d0d">
-            <TBODY>
-                <TR>
-                    <TD style="PADDING-LEFT: 52px" vAlign=center align=center width="65%">
-                        <p>&nbsp;</p>
-                        <p>
-                            <div class="footer-link2home">
-                                <a href="press.php">Press Room</a><a href="foundation.php">Foundations</a><a href="partnership.php">Partnerships</a><a href="portfolio.php">Portfolio</a><a href="privacy.php">Privacy Policy</a><a href="sitemap.php">Site Map</a> </div>
-                    </TD>
-                    <TD vAlign=center align=right width="13%">
-                        <p>&nbsp;</p>
-                        <p>
-                            <div class="footer-link3">
-                                <?php if(isset($_SESSION['user'])){ ?>
-                                <a href="my-port.php" target="_self">My Portfolio</a> | <a href="logout.php" target="_self">Logout</a>
-                                <?php } else { ?>
-                                <a href="login.php" target="_self">Members Login</a> | <a href="register.php" target="_self">Register</a>
-                                <?php } ?>
-                            </div>
-                        </p>
-                    </TD>
-                    </TD>
-                </TR>
-                <TR>
-                    <TD vAlign=center align=middle colSpan=3>
-                        <TABLE cellSpacing=10 cellPadding=0 width="100%" border=0>
-                            <TBODY>
-                                <TR>
-                                    <TD align=middle>
-                                          <div class="address"> <br/> 8250 Westpark Drive, #461, McLean, VA-22102, USA | Tel: +1-(732) 397-0766 | Email: info@scimores.com <br/>
-                                            Copyright &copy; 2010 SCIMORES Corporation</div>
-                                    </TD>
-                                </TR>
-</BODY>
+            <!--footer-->
+            <script type="text/javascript">
+            var msg1 = '<div id="msg" class="text-container">';
+            msg1 += ' <span class="gold-label">  Gold Lip </span>';
+            msg1 += '<span class="health-label-1"> Health & Fitness Center </span>';
+            msg1 += '<br>';
+            msg1 += '<div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>';
+            msg1 += '<span class="end-help-text">In Planning Phase. Click the below icon</span>';
+            msg1 += '<br>';
+            msg1 += '<span class="end-help-text-1">to view the Plan.</span>';
+            msg1 += '</div>';
 
-</HTML>
-<!--footer-->
-</div>
-<script type="text/javascript">
-var text1 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
-var text2 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
-var text3 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
+            var msg2 = '<div id="msg" class="text-container">';
+            msg2 += '<span class="health-label-3"><span style="font-weight:400">SCIMORES</span> International School</span>';
+            msg2 += '<br>';
+            msg2 += '<div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>';
+            msg2 += '<span class="end-help-text-3">In Planning Phase. Will be publishing</span>';
+            msg2 += '<br>';
+            msg2 += '<span class="end-help-text">the plan very soon.</span>';
+            msg2 += '</div>';
 
-$(function() {
-    $('body').vegas({
-        slides: [
-            { src: 'images/shutterstock.jpg', overlaytext: text1 },
-            { src: 'images/shutterstock_1.jpg', overlaytext: text2 },
-            { src: 'images/auditorium.png', overlaytext: text3 }
+            var msg3 = '<div id="msg" class="text-container">';
+            msg3 += '<span class="health-label"><span style="font-weight:400">SCIMORES</span> Academy for Arts & Music</span>';
+            msg3 += '<br>';
+            msg3 += '<div style="text-align:center"><span class="city-first-letter">H </span><span class="city">erndon, VA</span></div>';
+            msg3 += '<span class="end-help-text-2">In Pre-Construction Phase. Click the below</span>';
+            msg3 += '<br>';
+            msg3 += '<span class="end-help-text"> icon to view the Plan/Brochure.</span>';
+            msg3 += '</div>';
+            var text1 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
+            var text2 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
+            var text3 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
 
+            var text = [msg1, msg2, msg3];
+            var images = ['./images/shutterstock_1.jpg', './images/auditorium.png', './images/shutterstock.jpg'];
+            var classes = ['img1', 'img2', 'img3'];
+            var imageHead = document.getElementById("image-head");
+            var i = 0;
 
-        ],
-        timer: false,
-        transition: 'fade2',
-        transitionDuration: 10000,
-        animation: 'kenburns',
-        animationDuration: 20000,
-        overlay: false,
-        walk: function(index, slideSettings) {
-            jQuery('#background .caption').css('display', 'none');
-            jQuery('#background .caption#' + (index + 1).toString()).css('display', 'block');
-        }
+            setInterval(function() {
+                $('#image-head').attr('src', images[i]);
+                $('#image-head').removeClass(classes[i]);
+                i = i + 1;
+                if (i == images.length) {
+                    i = 0;
+                }
+                var elem = document.getElementById("msg");
 
-    });
-});
-</script>
+                $('#image-head').addClass(classes[i]);
+              elem.innerHTML = text[i];
+            }, 5000);
+            </script>
 </body>
 
 </html>
+
