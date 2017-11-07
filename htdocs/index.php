@@ -8,8 +8,9 @@ require_once("config.php");
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SCIMORES Corporation</title>
     <link href="css/template_sci.css" rel="stylesheet" type="text/css" />
-    
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/labels-font.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/style3.css" rel="stylesheet" type="text/css" />
     <link href="css/vegas.css" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
@@ -32,45 +33,6 @@ require_once("config.php");
     .company_backdrop {
         background: none;
     }
-
-    .menu-img-container {
-        position: relative;
-        top: 485px;
-        margin-left: auto;
-        margin-right: auto;
-        display: table
-    }
-
-    .img-div {
-        padding: 0 5px;
-    }
-
-    .img-div:hover {
-        width: 80px;
-        padding: 0 25px;
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-    /*    .item {
-        padding: 0 5px;
-    }
-
-
-    .item:hover {
-        padding: 0 15px;
-    }
-
-    .item img:hover {
-        width: 80px;
-        height: 100px;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        transition: all .5s ease;
-    }*/
 
     #navi_wrapper {
         float: left;
@@ -96,21 +58,21 @@ require_once("config.php");
 
     .health-label {
         color: #f3f0f0;
-         font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 15.5px;
     }
 
-     .health-label-1 {
+    .health-label-1 {
         color: #f3f0f0;
-         font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 16px;
     }
 
     .health-label-3 {
         color: #f3f0f0;
-       font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 16.4px
     }
@@ -122,7 +84,7 @@ require_once("config.php");
 
     .city {
         color: #f3f0f0;
-         font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 19px;
         margin-left: -5px
@@ -130,49 +92,30 @@ require_once("config.php");
 
     .end-help-text {
         color: #f3f0f0;
-         font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 14.5px
     }
 
     .end-help-text-1 {
         color: #f3f0f0;
-         font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 14px
     }
 
     .end-help-text-2 {
         color: #f3f0f0;
-         font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 14.4px
     }
 
     .end-help-text-3 {
         color: #f3f0f0;
-         font-family: "Times New Roman";
+        font-family: "Times New Roman";
         font-weight: lighter;
         font-size: 14.4px
-    }
-
-    .menu-img-container .img-div {
-        float: left;
-        text-align: center;
-    }
-
-    .menu-img-container .img-div span {
-        color: #f3f0f0;
-    }
-
-    .menu-img-container .img-div span.txt1 {
-        font-size: 19px;
-    }
-
-    .menu-img-container .img-div span.txt2 {
-        color: #f3f0f0;
-        font-size: 11px;
-        margin-left: -3px;
     }
     </style>
 </head>
@@ -197,7 +140,7 @@ require_once("config.php");
                             <li class="cur_main_mnu"><a href="overview.php" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
                                 <ul>
                                     <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
-                            <!--  <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li> -->
+                                    <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -251,7 +194,7 @@ require_once("config.php");
             </div>
             <div class="parent">
                 <div class="img">
-                    <img class="image-class img1" id="image-head" src="./images/shutterstock.jpg">
+                    <img class="image-class img1" id="image-head" src="./images/shutterstock.jpg"></img>
                 </div>
                 <!-- First text message -->
                 <div id="msg">
@@ -265,31 +208,28 @@ require_once("config.php");
                         <span class="end-help-text-1">to view the Plan.</span>
                     </div>
                 </div>
-    
                 <!--dont remove this line-->
-                <div class="menu-img-container">
-                    <div class="img-div">
+                <div class="menu">
+                    <div class="menu-item">
                         <span class="txt1">C</span>
                         <span class="txt2">HENNAI</span>
-                        <br>
-                        <a href="goldlip.php" class="item">
-                                <img width="75" height="75" src="images/auditorium.png" alt="no image">
+                        <a href="goldlip.php">
+                                <img class="menu-images" src="images/goldlip_thumb.jpg">
                             </a>
                     </div>
-                    <div class="img-div">
+                    <div class="menu-item">
                         <span class="txt1">C</span>
                         <span class="txt2">HENNAI</span>
-                        <br>
-                        <a href="intl-school.php" class="item">
-                                <img width="75" height="75" src="images/shutterstock_1.jpg" alt="no image">
+                        <a href="intl-school.php">
+                                <img class="menu-images" src="images/intl_thumb.jpg">
                             </a>
                     </div>
-                    <div class="img-div">
+                    <div class="menu-item">
                         <span class="txt1">H</span>
                         <span class="txt2">ERNDON</span>
-                        <br>
-                        <a href="intl-school.php" class="item">
-                                <img width="75" height="75" src="images/shutterstock.jpg" alt="no image"></a>
+                        <a href="intl-school.php">
+                                <img class="menu-images" src="images/auditorium-thumb.jpg">
+                            </a>
                     </div>
                 </div>
                 <div class="clear-fix"></div>
@@ -300,7 +240,6 @@ require_once("config.php");
                     <TBODY>
                         <TR>
                             <TD style="PADDING-LEFT: 52px" vAlign=center align=center width="65%">
-                                <p>&nbsp;</p>
                                 <p>
                                     <div class="footer-link2home">
                                         <a href="press.php">Press Room</a><a href="foundation.php">Foundations</a><a href="partnership.php">Partnerships</a><a href="portfolio.php">Portfolio</a><a href="privacy.php">Privacy Policy</a><a href="sitemap.php">Site Map</a> </div>
@@ -377,10 +316,9 @@ require_once("config.php");
                 var elem = document.getElementById("msg");
 
                 $('#image-head').addClass(classes[i]);
-              elem.innerHTML = text[i];
+                elem.innerHTML = text[i];
             }, 5000);
             </script>
 </body>
 
 </html>
-

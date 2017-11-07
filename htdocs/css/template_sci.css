@@ -3798,6 +3798,18 @@ a:hover img.port_scr-box {
 
 
 
+#footer {
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px 0 0 0;
+    width: 100%;
+    background: #0d0d0d;
+}
+
+.footer-class{
+    width: 938px;
+    margin: 0 auto;
+}
 
 
 
