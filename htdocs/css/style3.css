@@ -31,11 +31,11 @@ div.img {
 }
 
 div.img .img1 {
-    -webkit-animation: myfirst 6s infinite;
+    -webkit-animation: myfirst 5s infinite;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-direction: alternate;
     /* Safari 4.0 - 8.0 */
-    animation: myfirst 6s infinite;
+    animation: myfirst 5s infinite;
     animation-direction: alternate;
     width: calc(100% + 300px);
     height: 100%;
@@ -56,11 +56,11 @@ div.img .img1 {
 }
 
 div.img .img2 {
-    -webkit-animation: mySecond 6s infinite;
+    -webkit-animation: mySecond 5s infinite;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-direction: alternate;
     /* Safari 4.0 - 8.0 */
-    animation: mySecond 6s infinite;
+    animation: mySecond 5s infinite;
     animation-direction: alternate;
     height: 710px;
     /* height: 100%;
@@ -83,11 +83,11 @@ div.img .img2 {
 }
 
 div.img .img3 {
-    -webkit-animation: myThird 6s infinite;
+    -webkit-animation: myThird 5s infinite;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-direction: alternate;
     /* Safari 4.0 - 8.0 */
-    animation: myThird 6s infinite;
+    animation: myThird 5s infinite;
     animation-direction: alternate;
     width: calc(100% + 300px);
     height: 100%;

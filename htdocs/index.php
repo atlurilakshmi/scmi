@@ -14,13 +14,14 @@ require_once("config.php");
     <link href="css/vegas.css" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
+     <link href="http://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
     <link href="css/default.css" media="all" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/ddaccordion.js"></script>
     <script type="text/javascript" src="js/vegas.js"></script>
     <style type="text/css">
     @font-face {
-        font-family: 'Agency Fb';
+       font-family: 'Agency FB', arial;
     }
 
     #template_main {
@@ -52,7 +53,7 @@ require_once("config.php");
         color: #F3C80F;
         font-weight: bold;
         font-size: 28px;
-        font-family: 'Agency Fb';
+        font-family: 'Agency FB', arial;
         padding-right: 0px;
     }
 
@@ -258,7 +259,7 @@ require_once("config.php");
                             </TD>
                         </TR>
                         <TR>
-                            <TD align=middle>
+                            <TD colspan="2">
                                 <div class="address">
                                     <br/> 8250 Westpark Drive, #461, McLean, VA-22102, USA | Tel: +1-(732) 397-0766 | Email: info@scimores.com
                                     <br/> Copyright &copy; 2010 SCIMORES Corporation</div>
