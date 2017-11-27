@@ -137,13 +137,15 @@ unset($_SESSION['lastclickedlink']);
                     <h2>NEWS & ANNOUNCEMENTS</h2>                  
                          
                     <br> 
+                     <div class="bottom-space">
+                    2017-10-20 <span class="item-space">  <a href="https://1drv.ms/f/s!AvqYzV17v_FxokkM3yh8Qk1sBZzA" target="_blank"  <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Purchased all 7.5 acres</a></span>
+                    </div> 
+
+                    <div class="bottom-space">
+                    2017-07-19 <span class="item-space">  <a href="https://www.fairfaxcounty.gov/errors/404.htm?aspxerrorpath=/ldsnet/ErrorSession.aspx" target="_blank" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Submitted Site Plan to DPZ</a></span>
+                    </div> 
                       
-                    <div class="bottom-space">
-                    2017-10-20 <span class="item-space"><a href="pdf/acceptance.pdf" target="_blank" class="yellow">Purchased all 7.5 acres</a></span>
-                    </div>
-                    <div class="bottom-space">
-                    2017-07-19 <span class="item-space">  <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/CustomSubmit.aspx?typ=PAWS&tot=1&sel=5" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Submitted Site Plan to DPZ</a></span>
-                    </div>
+                   
                     <div class="bottom-space">
                     2017-06-06 <span class="item-space">
                     <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Special Exception Application Approved by Board of Supervisors</a></span>
