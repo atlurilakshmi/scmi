@@ -141,7 +141,6 @@ require_once("config.php");
                             <li class="cur_main_mnu"><a href="overview.php" target="_self" title="Company"><span class="let_big">C</span>ompany</a>
                                 <ul>
                                     <li><a href="overview.php"><span class="let_big">O</span>VERVIEW</a></li>
-                                    <li><a href="managemanent-pro.php"><span class="let_big">P</span>romoters</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -169,7 +168,7 @@ require_once("config.php");
                                     <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
                                     <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
                                     <li><a href="goldlip.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>G</big>OLD <span class="let_big">L</span>IP <span class="let_big">HFC</span></a></li>
-                                    <li><a href="alba.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>A</big>lba<big>.T.K.</big> </a></li>
+                                   
                                 </ul>
                             </li>
                             <li><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
@@ -212,10 +211,10 @@ require_once("config.php");
                 <!--dont remove this line-->
                 <div class="menu">
                     <div class="menu-item">
-                        <span class="txt1">C</span>
-                        <span class="txt2">HENNAI</span>
-                        <a href="goldlip.php">
-                                <img class="menu-images" src="images/goldlip_thumb.jpg">
+                        <span class="txt1">H</span>
+                        <span class="txt2">ERNDON</span>
+                        <a href="academy.php">
+                                <img class="menu-images" src="images/auditorium-thumb.jpg">
                             </a>
                     </div>
                     <div class="menu-item">
@@ -226,10 +225,10 @@ require_once("config.php");
                             </a>
                     </div>
                     <div class="menu-item">
-                        <span class="txt1">H</span>
-                        <span class="txt2">ERNDON</span>
-                        <a href="intl-school.php">
-                                <img class="menu-images" src="images/auditorium-thumb.jpg">
+                        <span class="txt1">C</span>
+                        <span class="txt2">HENNAI</span>
+                        <a href="goldlip.php">
+                                <img class="menu-images" src="images/goldlip_thumb.jpg">
                             </a>
                     </div>
                 </div>

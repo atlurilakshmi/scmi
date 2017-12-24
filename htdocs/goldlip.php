@@ -10,6 +10,28 @@ require_once("config.php");
 <link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
 <link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
 <link href="css/default.css" media="all" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .button {
+        background-color: #C0C0C0;
+        color: black;
+        border: none;
+        padding: 3px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 6px 3px;
+        font-weight: bold;
+        width: 104px;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    .new-btn-format a {
+        float: left;
+    }
+  </style>
+  
 <?php
 if(isset($_SESSION['lastclickedlink']) && isset($_SESSION['user']))
 {
@@ -70,7 +92,7 @@ unset($_SESSION['lastclickedlink']);
               <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
               <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
               <li><a href="goldlip.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>G</big>OLD <span class="let_big">L</span>IP <span class="let_big">HFC</span></a></li>
-              <li><a href="alba.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>A</big>lba<big>.T.K.</big> </a></li>
+             
             </ul>
         </li>
         <li><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
@@ -100,7 +122,20 @@ unset($_SESSION['lastclickedlink']);
 <h3>GOLD LIP Health &amp; fitness center </h3>
 <div class="intl-school_img_wrapper">
 <div class="intl-school_img"><img src="images/goldlip_200.jpg" alt="goldlip"/></div>
-<div class="intl_button"><a href="http://www.goldliphfc.com" target="_blank" title="GOLDLIP HFC"><img src="images/visit-website.gif" alt="visit website" border="0" height="20"/></a>&nbsp;<a href="viewpdf.php?project=goldlip" <?php if(isset($_SESSION['user'])) { ?>target="_blank"<?php } ?>><img src="images/viewplan.gif" alt="view plan" border="0" height="20"/></a>&nbsp;<a href="industry.php"><img src="images/view_all.gif" alt="view all" border="0" width="100" height="20"/></a></div>
+
+
+<div class="new-btn-format">
+    <a href="http://www.goldliphfc.com" target="_blank" title="GOLDLIP HFC">
+        <input type="button" class="button" value="VISIT WEBSITE">
+    </a>
+    <a href="viewpdf.php?project=goldlip" <?php if(isset($_SESSION['user'])) { ?>target="_blank"<?php } ?>>
+        <input type="button" class="button" value="VIEW PLAN">
+    </a>
+    <a href="industry.php">
+        <input type="button" class="button" value="VIEW ALL">
+    </a>
+</div>
+
 </div>
 <div class="intl-school_txt">Gold Lip Health & Fitness Center will be the first of its kind in Chennai brought to you by Scimores Corporation with the ultimate objective of bringing the world class fitness products and facilities to Chennai.
 <br /><br />

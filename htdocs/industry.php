@@ -59,7 +59,7 @@ require_once("config.php");
               <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
               <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
               <li><a href="goldlip.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>G</big>OLD <span class="let_big">L</span>IP <span class="let_big">HFC</span></a></li>
-              <li><a href="alba.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>A</big>lba<big>.T.K.</big> </a></li>
+             
             </ul>
         </li>
         <li><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
@@ -93,10 +93,10 @@ SCIMORES Industry of Fashion will be responsible for creating and promoting inte
 <div id="content_thumb_wrapper">
 <a href="goldlip.php"><img src="images/goldlip_thumb.jpg" alt="Gold Lip HFC" title="Gold Lip HFC" /></a>
 <h2 ><a href="goldlip.php" target="_self" style="color:#f1f0f0">Gold Lip HFC</a></h2>
-</div><div id="content_thumb_wrapper_2">
+</div><!-- <div id="content_thumb_wrapper_2">
 <a href="alba.php"><img src="images/albatk_thumb_2.jpg" alt="ALBATK" title="ALBATK" /></a>
 <h2 ><a href="alba.php" target="_self" style="color:#f1f0f0">ALBA.T.K</a></h2>
-</div><!--<div id="content_thumb_wrapper_3">
+</div> --><!--<div id="content_thumb_wrapper_3">
 <a href="goldlip.php"><img src="images/goldlip_thumb.jpg" alt="Gold Lip HFC" title="Gold Lip HFC" /></a>
 <h2 ><a href="goldlip.php" target="_self" style="color:#f1f0f0">Gold Lip HFC</a></h2>
 </div>-->

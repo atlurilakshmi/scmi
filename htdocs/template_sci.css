@@ -243,6 +243,9 @@ ul.simple {
 
 
 
+
+
+
 /* CONTENT THUMBNAIL CSS ******************************************************** */
 
 #content_thumb_wrapper {
@@ -340,6 +343,9 @@ ul.simple {
     height: 190px;
     border: 0;
 }
+
+
+
 
 
 
@@ -609,6 +615,9 @@ ul.simple {
 
 
 
+
+
+
 /* PORTFOLIO SCROLABLE BOX STYLE */
 
 
@@ -823,6 +832,9 @@ ul.simple {
 
 
 
+
+
+
 /* forgot password err msg style*/
 
 .err_msg_forgot {
@@ -896,11 +908,17 @@ ul.simple {
 
 
 
+
+
+
 /* form display error */
 
 .form_error {
     color: #fc0;
 }
+
+
+
 
 
 
@@ -1214,6 +1232,9 @@ ul.simple {
 
 
 
+
+
+
 /* content heading style */
 
 
@@ -1406,6 +1427,9 @@ checkbox {
 
 
 
+
+
+
 /* loginbox message style */
 
 .msg-top {
@@ -1416,6 +1440,9 @@ checkbox {
     text-align: center;
     width: auto;
 }
+
+
+
 
 
 
@@ -1608,6 +1635,9 @@ checkbox {
 
 
 
+
+
+
 /* navigation split line style */
 
 .space_bord_split {
@@ -1711,6 +1741,9 @@ a:hover img.port_scr-box {
 
 
 
+
+
+
 /* Sitemap linklist style ----------------------------------------------------- */
 
 .sitemap_tbl {
@@ -1769,11 +1802,17 @@ a:hover img.port_scr-box {
 
 
 
+
+
+
 /* no padding & no border */
 
 .sitemap_td {
     width: 170px;
 }
+
+
+
 
 
 
@@ -1853,6 +1892,9 @@ a:hover img.port_scr-box {
 
 
 
+
+
+
 /* with border style */
 
 .sitemap_td_line {
@@ -1860,6 +1902,9 @@ a:hover img.port_scr-box {
     padding-left: 10px;
     border-left: 1px solid #333;
 }
+
+
+
 
 
 
@@ -2004,6 +2049,9 @@ a:hover img.port_scr-box {
 
 
 
+
+
+
 /* backdrop images End ---------------------------------------------------------- */
 
 
@@ -2042,6 +2090,9 @@ a:hover img.port_scr-box {
     float: left;
     margin-top: 10px;
 }
+
+
+
 
 
 

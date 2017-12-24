@@ -21,9 +21,9 @@ require_once("config.php");
         text-decoration: none;
         display: inline-block;
         font-size: 12px;
-        margin: 6px 2px;
+        margin: 6px 3px;
         font-weight: bold;
-        width: 96px;
+        width: 104px;
         margin-bottom: 0;
         cursor: pointer;
     }
@@ -33,8 +33,23 @@ require_once("config.php");
     }
 
     .btn-4 {
-        margin-left: 100px;
+        margin-left: 110px;
     }
+    .school_backdrop{
+            background: #0d0d0d url(images/current-profiles/14.png) top center no-repeat;
+    }
+    body{
+        position: relative;
+    }
+    body::after {
+        display: block;
+        position: absolute;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 0, #000 100%);
+        height: 150px;
+        width: 100%;
+        content: '';
+        bottom: 55px;
+    } 
     </style>
 </head>
 
@@ -86,7 +101,7 @@ require_once("config.php");
                                     <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
                                     <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
                                     <li><a href="goldlip.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>G</big>OLD <span class="let_big">L</span>IP <span class="let_big">HFC</span></a></li>
-                                    <li><a href="alba.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>A</big>lba<big>.T.K.</big> </a></li>
+                                   
                                 </ul>
                             </li>
                             <li class="cur_main_mnu"><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>

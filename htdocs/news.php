@@ -18,6 +18,23 @@ require_once("config.php");
         .item-space{
             padding-left:5px;
         }
+        #action-icon{
+            color: #fc0;
+            text-decoration: none !important;
+            font-size: 18px;
+            padding-left: 7px;
+        }
+        .data-class{
+            display: none;
+            padding: 3px 0px;
+            margin-left: 208px;
+        }
+
+         .data-class1{
+            display: none;
+            padding: 3px 0px;
+            margin-left: 244px;
+        }
     </style>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/ddaccordion.js"></script>
@@ -42,6 +59,23 @@ require_once("config.php");
             //do nothing
         }
     })
+
+    $(document).ready(function(){
+        var open =true;
+    $("#action-icon").click(function(){
+        open = !open;
+        if(!open){
+            $("#action-icon").html('-')
+        }else{
+            $("#action-icon").html('+')
+        }
+        
+        $("#data-id").slideToggle(700);
+
+    });
+   
+
+});
     </script>
     <!-- switch content -->
     <script type="text/javascript" src="js/switchcontent.js"></script>
@@ -108,7 +142,6 @@ unset($_SESSION['lastclickedlink']);
                                     <div style="border-bottom:1px solid #828283; margin: 5px 0;"></div>
                                     <h2><big>P</big>IPELINE <big>P</big>ROJECTS</h2>
                                     <li><a href="goldlip.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>G</big>OLD <span class="let_big">L</span>IP <span class="let_big">HFC</span></a></li>
-                                    <li><a href="alba.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<big>A</big>lba<big>.T.K.</big> </a></li>
                                 </ul>
                             </li>
                             <li><a href="education.php" target="_self"><span class="let_big">e</span>ducational <span class="let_big">s</span>ector</a>
@@ -142,17 +175,32 @@ unset($_SESSION['lastclickedlink']);
                     </div> 
 
                     <div class="bottom-space">
-                    2017-07-19 <span class="item-space">  <a href="https://www.fairfaxcounty.gov/errors/404.htm?aspxerrorpath=/ldsnet/ErrorSession.aspx" target="_blank" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Submitted Site Plan to DPZ</a></span>
+                    2017-07-19 <span class="item-space">  <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/Custom.aspx?typ=PAWS" target="_blank" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Submitted Site Plan to DPZ</a></span> <a href="javascript:void(0)" id="action-icon" class="action-icon-class">+</a>
                     </div> 
+
+                    <div id="data-id" class="data-class">
+                       <div>Select Last Name/Organization Name</div> 
+                         <div>Click Build Custom Search</div> 
+                        <div>Enter Scimores Academy in Last Name/Organization Name</div> 
+                        <div>Click Process </div>
+  
+                    </div>
+
+                   <!--  <div id="data-id" class="data-class1">
+                       <div>sample dataaaaaaaaaaaaa</div> 
+                         <div>sample dataaaaaaaaaaaaa</div> 
+                        <div>sample dataaaaaaaaaaaaa</div> 
+  
+                    </div> -->
                       
                    
                     <div class="bottom-space">
                     2017-06-06 <span class="item-space">
-                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Special Exception Application Approved by Board of Supervisors</a></span>
+                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" target="_blank" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Special Exception Application Approved by Board of Supervisors</a></span>
                     </div>
                     <div class="bottom-space">
                     2017-04-26 <span class="item-space">
-                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Speical Exception Application Approved by Planning Commission</a></span>
+                    <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/ZAPSMain.aspx?cde=SE&seq=4215221" target="_blank"  <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Rezoning & Speical Exception Application Approved by Planning Commission</a></span>
                     </div>
                     <div class="bottom-space">
                     2016-04-19 <span class="item-space"><a href="pdf/acceptance.pdf" target="_blank" class="yellow">Rezoning & Special Exception Application Accepted by DPZ</a></span>
@@ -168,27 +216,11 @@ unset($_SESSION['lastclickedlink']);
                     <div class="bottom-space">
                     2015-03-01 <span class="item-space"> Project Kickoff</span>
                     </div>
-                    <div class="bottom-space">
-                    2015-06-30 <span class="item-space"> Completed Feasibility Study</span>
-                    </div>
+                    
                     <div>
                    2014-08-20 <span class="item-space"> Incorporated Scimores Academy LLC</span>
                     </div>
-                    <div class="bottom-space">
-                     2010-02-28 <span class="item-space"> Launching our corporate website - www.scimores.com</span>
-                    </div>
-                    <div class="bottom-space">
-                    2009-11-16 <span class="item-space"> <a href="viewpdf.php?doc=CCB" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Received Certificate for Commencement of Business</a></span>
-                    </div>
-                    <div class="bottom-space">
-                    2009-11-04 <span class="item-space"> <a href="viewpdf.php?doc=CI" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Received Certificate of Incorporation</a></span>
-                    </div>
-                    <div class="bottom-space">
-                    2009-09-01 <span class="item-space"> Company Name - SCIMORES CORPORATION (INDIA) LTD approved</span>
-                    </div>
-                    <div class="bottom-space">
-                   2009-07-01 <span class="item-space"> Starting Phase 1 - Scimores Incorporation Initiative</span>
-                    </div>
+                    
                     <script type="text/javascript">
                     // MAIN FUNCTION: new switchcontent("class name", "[optional_element_type_to_scan_for]") REQUIRED
                     // Call Instance.init() at the very end. REQUIRED
