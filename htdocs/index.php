@@ -7,10 +7,10 @@ require_once("config.php");
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SCIMORES Corporation</title>
-    <link href="css/template_sci.css" rel="stylesheet" type="text/css" />
-    <link href="css/labels-font.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet" type="text/css" />
-    <link href="css/style3.css" rel="stylesheet" type="text/css" />
+    <link href="css/template_sci.css" rel="stylesheet" type="text/css" />
+        <link href="css/labels-font.css" rel="stylesheet">
+        <link href="css/style3.css" rel="stylesheet" type="text/css" />
     <link href="css/vegas.css" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/dropdown.vertical.css" media="all" rel="stylesheet" type="text/css" />
@@ -194,19 +194,30 @@ require_once("config.php");
             </div>
             <div class="parent">
                 <div class="img">
-                    <img class="image-class img1" id="image-head" src="./images/shutterstock.jpg"></img>
+                    <img class="image-class img1" id="image-head" src="./images/auditorium.png"></img>
                 </div>
                 <!-- First text message -->
                 <div id="msg">
                     <div class="text-container">
-                        <span class="gold-label">  Gold Lip</span>
+                   <!--     <span class="gold-label">  Gold Lip</span>
                         <span class="health-label-1">Health & Fitness Center </span>
                         <br>
                         <div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>
                         <span class="end-help-text">In Planning Phase. Click the below icon</span>
                         <br>
-                        <span class="end-help-text-1">to view the Plan.</span>
-                    </div>
+                        <span class="end-help-text-1">to view the Plan.</span>-->
+
+                        <span class="health-label"><span style="font-weight:400">SCIMORES</span> Academy for Arts & Music</span>
+                        <br>
+                         <div style="text-align:center"><span class="city-first-letter">H </span><span class="city">erndon, VA</span></div>
+                        <span class="end-help-text-2">In Pre-Construction Phase. Click the below</span>
+                        <br>
+                        <span class="end-help-text"> icon to view the Plan/Brochure.</span>
+
+                          
+                     </div>
+
+                   
                 </div>
                 <!--dont remove this line-->
                 <div class="menu">
@@ -214,21 +225,21 @@ require_once("config.php");
                         <span class="txt1">H</span>
                         <span class="txt2">ERNDON</span>
                         <a href="academy.php">
-                                <img class="menu-images" src="images/auditorium-thumb.jpg">
+                                <img class="menu-images" src="images/auditorium-thumb.png">
                             </a>
                     </div>
                     <div class="menu-item">
                         <span class="txt1">C</span>
                         <span class="txt2">HENNAI</span>
                         <a href="intl-school.php">
-                                <img class="menu-images" src="images/intl_thumb.jpg">
+                                <img class="menu-images" src="images/intl_thumb.png">
                             </a>
                     </div>
                     <div class="menu-item">
                         <span class="txt1">C</span>
                         <span class="txt2">HENNAI</span>
                         <a href="goldlip.php">
-                                <img class="menu-images" src="images/goldlip_thumb.jpg">
+                                <img class="menu-images" src="images/goldlip_thumb.png">
                             </a>
                     </div>
                 </div>
@@ -300,8 +311,8 @@ require_once("config.php");
             var text2 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
             var text3 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
 
-            var text = [msg1, msg2, msg3];
-            var images = ['./images/shutterstock_1.jpg', './images/auditorium.png', './images/shutterstock.jpg'];
+            var text = [msg3, msg2, msg1];
+            var images = ['./images/shutterstock_1.jpg','./images/shutterstock.jpg', './images/auditorium.png'];
             var classes = ['img1', 'img2', 'img3'];
             var imageHead = document.getElementById("image-head");
             var i = 0;

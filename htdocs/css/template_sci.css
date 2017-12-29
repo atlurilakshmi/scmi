@@ -1981,7 +1981,7 @@ a:hover img.port_scr-box {
 }
 
 .architec_backdrop {
-
+background: #0d0d0d url(../images/architec.jpg) top center no-repeat;
     width: 100%;
     height: 100%;
     background-size: 100% 100%;
