@@ -31,10 +31,18 @@ require_once("config.php");
         }
 
          .data-class1{
-            display: none;
+           
             padding: 3px 0px;
-            margin-left: 244px;
+            margin-left:70px;
         }
+        table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
     </style>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/ddaccordion.js"></script>
@@ -172,10 +180,51 @@ unset($_SESSION['lastclickedlink']);
                     <br> 
                      <div class="bottom-space">
                     2017-10-20 <span class="item-space">  <a href="https://1drv.ms/f/s!AvqYzV17v_FxokkM3yh8Qk1sBZzA" target="_blank"  <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Purchased all 7.5 acres</a></span>
+                   </div>
+                   <div class="data-class1">
+                               <span class="item-space">County Records Link: </span>
+                    </div> 
+                    <div class="data-class1">
+                               <span class="item-space"><a href="http://icare.fairfaxcounty.gov/ffxcare/search/commonsearch.aspx?mode=address" target="_blank"  <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">http://icare.fairfaxcounty.gov/ffxcare/search/commonsearch.aspx?mode=address</a></span> </span>
                     </div> 
 
+                    <div class="data-class1">
+                               <span class="item-space">Search by: </span>
+                    </div> 
+                    <div  class="data-class1">
+                              
+                   
+                        <table>
+                      
+                         <tr>
+                             <th>Number</th>
+                              <th>Street</th>
+                         </tr>
+                         <tr>
+                              <td>2625</td>
+                              <td>Centreville</td>
+                          </tr>
+                             <tr>
+                             <td>2633</td>
+                             <td>Centreville</td>
+                        </tr>
+                         <tr>
+                              <td>2703</td>
+                              <td>West Ox</td>
+                          </tr>
+                             <tr>
+                             <td>2705</td>
+                             <td>West Ox</td>
+                        </tr>
+                        </table>
+                    
+                    </div>
+
                     <div class="bottom-space">
-                    2017-07-19 <span class="item-space">  <a href="http://ldsnet.fairfaxcounty.gov/ldsnet/Custom.aspx?typ=PAWS" target="_blank" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Submitted Site Plan to DPZ</a></span> <a href="javascript:void(0)" id="action-icon" class="action-icon-class">+</a>
+                       
+
+
+                    2017-07-19 <span class="item-space">  <a href="https://1drv.ms/b/s!AvqYzV17v_FxoEGRN4lgs0gdTGU8" target="_blank" <?php if(isset($_SESSION[ 'user'])) { ?>target="_blank"<?php } ?> class="yellow">Site Plan</a> Submitted to DPZ</span> <a href="javascript:void(0)" id="action-icon" class="action-icon-class">+</a>
                     </div> 
 
                     <div id="data-id" class="data-class">
@@ -214,7 +263,7 @@ unset($_SESSION['lastclickedlink']);
                     2015-06-30 <span class="item-space">Completed Feasibility Study</span>
                     </div>
                     <div class="bottom-space">
-                    2015-03-01 <span class="item-space"> Project Kickoff</span>
+                    2015-03-01 <span class="item-space">Initiated Project</span>
                     </div>
                     
                     <div>
