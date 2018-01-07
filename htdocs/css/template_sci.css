@@ -2105,8 +2105,8 @@ background: #0d0d0d url(../images/architec.jpg) top center no-repeat;
 }
 
 .intl-school_img img {
-    width: 330px;
-    height: 260px;
+    width: 300px;
+    height: 250px;
     border: 1px solid #c3c3cd;
 }
 
@@ -2120,7 +2120,7 @@ background: #0d0d0d url(../images/architec.jpg) top center no-repeat;
     width: 303px;
     height: 18px;
     float: left;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 

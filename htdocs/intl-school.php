@@ -113,7 +113,7 @@ require_once("config.php");
                     <div>
                         <div class="intl-school_img_wrapper">
                             <div class="intl-school_img"><a href="http://www.scimoresinternationalschool.com" target="_blank" title="scimoresinternationalschool"><img src="images/intl_school_img.jpg" alt="international school" /></a></div>
-                            <div class="new-btn-format">
+                          <!--  <div class="new-btn-format">
                                 <a href="http://www.scimoresinter" target="_blank" title="scimoresinternationalschool">
                                     <input type="button" class="button" value="VISIT WEBSITE" />
                                 </a>
@@ -123,8 +123,8 @@ require_once("config.php");
                                 <a href="education.php">
                                     <input type="button" class="button" value="VIEW ALL" />
                                 </a>
-                            </div>
-                            <!-- <div class="intl_button"><a href="http://www.scimoresinter" target="_blank" title="scimoresinternationalschool"><img src="images/visit-website.gif" alt="visit website" border="0" height="20"/></a>&nbsp;<img src="images/viewplan.gif" alt="view plan" border="0" height="20" />&nbsp;<a href="education.php"><img src="images/view_all.gif" alt="view all" border="0" width="100" height="20"/></a></div>-->
+                            </div>-->
+                            <div class="intl_button"><a href="http://www.scimoresinternationalschool.com" target="_blank" title="scimoresinternationalschool"><img src="images/visit-website.gif" alt="visit website" border="0" height="20"/></a>&nbsp;<img src="images/viewplan.gif" alt="view plan" border="0" height="20" />&nbsp;<a href="education.php"><img src="images/view_all.gif" alt="view all" border="0" width="100" height="20"/></a></div>
                         </div>
                     </div>
                     <div class="intl-school_txt"> SCIMORES International School - a one of its kind, world class fully air-conditioned international boarding school with state-of-the-art academic and extra-curricular facilities to the convenience of today’s global community with its first facility in Chennai across a 25 acres space.</div>

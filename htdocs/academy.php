@@ -133,13 +133,13 @@ require_once("config.php");
                         <div class="intl-school_img_wrapper">
                             <div class="intl-school_img">
                                 <a href="scimoresacademy.php" target="_blank" title="ScimoresAcademy">
-<img src="images/current-profiles/14.png" alt="ACADEMY" id="academy"></a>
+                            <img src="images/current-profiles/14.png" alt="ACADEMY" id="academy"></a>
                             </div>
-                            <div class="new-btn-format">
+                           <!-- <div class="new-btn-format">
                                 <a href="scimoresacademy.php" target="_blank" title="ScimoresAcademy">
                                     <input type="button" class="button" value="VISIT WEBSITE" />
                                 </a>
-                                <a href="pdf/viewplan.pdf" target="_blank">
+                                   <a href="pdf/viewplan.pdf" target="_blank">
                                     <input type="button" class="button" value="VIEW PLAN" />
                                 </a>
                                 <a href="education.php">
@@ -148,8 +148,9 @@ require_once("config.php");
                             </div>
                             <a class="btn-4" href="pdf/viewEB5.pdf" target="_blank">
                                 <input type="button" class="button" value="VIEW EB-5" />
-                            </a>
-                        </div>
+                            </a>--> 
+                            <div class="intl_button"><a href="scimoresacademy.php" target="_blank" title="ScimoresAcademy"><img src="images/visit-website.gif" alt="visit website" border="0" height="20"/></a>&nbsp;<a href="pdf/ScimoresAcademyBROCHURE.pdf" target="_blank" title="ScimoresAcademy"><img src="images/viewplan.gif" alt="view plan" border="0" height="20" /></a>&nbsp;<a href="education.php"><img src="images/view_all.gif" alt="view all" border="0" width="100" height="20"/></a></div>
+                        
                     </div>
                     <div class="intl-school_txt"> Schools provide regular academics, Recreation Centers provide sports related activities, what’s missing is a nice academy like facility for Fine Arts & Music that has the space, ambience and environment that’s inspiring for the teachers to teach and for students to learn.
                         <br/>

@@ -63,6 +63,85 @@ require_once("config.php");
         font-weight: lighter;
         font-size: 15.5px;
     }
+    .scimores_main{
+        color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 12.5px; 
+    }
+    .scimores_firstLine{
+        color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 12.5px; 
+    }
+.scimores_cap_word{
+    color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 16px; 
+}
+.scimores_secondLine{
+        color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 12px; 
+}
+.scimores_endLine{
+    color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 11px; 
+
+}
+.goldlip_main{
+    
+      color: #F3C80F;
+        font-family: "haettenschweiler";
+        font-size: 20px;
+}
+.goldlip_firstLine{
+     color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 14.5px; 
+
+}
+.goldlip_firstLetter{
+     color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 16px; 
+}
+.golidlip_secondLine{
+   color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 12px;  
+}
+.goldlip_endText{
+    color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 11px; 
+
+}
+     .Academy_1 {
+        color: #f3f0f0;
+        font-family: "Impact";
+        font-size: 12px;
+    }
+    .Academy_firstLine{
+        color: #f3f0f0;
+       font-family: "Wawati SC Regular";
+        font-size: 12px; 
+    }
+    .Academy-first-letter{
+        color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 16px; 
+    }
+    .Academy_secondLine{
+        color: #f3f0f0;
+        font-family: "Times New Roman";
+        font-size: 12px; 
+    }
+.Academy_end_text{
+    color: #f3f0f0;
+    font-family: "Times New Roman";
+        font-size: 12px; 
+}
 
     .health-label-1 {
         color: #f3f0f0;
@@ -207,12 +286,17 @@ require_once("config.php");
                         <br>
                         <span class="end-help-text-1">to view the Plan.</span>-->
 
-                        <span class="health-label"><span style="font-weight:400">SCIMORES</span> Academy for Arts & Music</span>
+                        <span class="Academy_1">
+                            <span >SCIMORES Academy</span>
+                             <span class="Academy_firstLine"> for Arts & Music</span>
+                         </span>
                         <br>
-                         <div style="text-align:center"><span class="city-first-letter">H </span><span class="city">erndon, VA</span></div>
-                        <span class="end-help-text-2">In Pre-Construction Phase. Click the below</span>
+                         <div style="text-align:center">
+                               
+                            <span class="Academy-first-letter">H</span><span class="Academy_secondLine">ERNDON, VA</span></div>
+                        <span class="Academy_end_text">In Pre-Construction Phase. Click the </span>
                         <br>
-                        <span class="end-help-text"> icon to view the Plan/Brochure.</span>
+                        <span class="Academy_end_text"> below icon to view the Plan/Brochure.</span>
 
                           
                      </div>
@@ -281,31 +365,31 @@ require_once("config.php");
             <!--footer-->
             <script type="text/javascript">
             var msg1 = '<div id="msg" class="text-container">';
-            msg1 += ' <span class="gold-label">  Gold Lip </span>';
-            msg1 += '<span class="health-label-1"> Health & Fitness Center </span>';
+            msg1 += ' <span class="goldlip_main">  Gold Lip </span>';
+            msg1 += '<span class="goldlip_firstLine"> Health & Fitness Center </span>';
             msg1 += '<br>';
-            msg1 += '<div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>';
-            msg1 += '<span class="end-help-text">In Planning Phase. Click the below icon</span>';
+            msg1 += '<div style="text-align:center"><span class="goldlip_firstLetter">C</span><span class="golidlip_secondLine">HENNAI, India</span></div>';
+            msg1 += '<span class="goldlip_endText">In Planning Phase. Click the below icon to</span>';
             msg1 += '<br>';
-            msg1 += '<span class="end-help-text-1">to view the Plan.</span>';
+            msg1 += '<span class="goldlip_endText">view the Plan.</span>';
             msg1 += '</div>';
 
             var msg2 = '<div id="msg" class="text-container">';
-            msg2 += '<span class="health-label-3"><span style="font-weight:400">SCIMORES</span> International School</span>';
+            msg2 += '<span class="scimores_main"><span >SCIMORES</span><span class="scimores_firstLine"> International School</span></span>';
             msg2 += '<br>';
-            msg2 += '<div style="text-align:center"><span class="city-first-letter">C </span><span class="city">HENNAI</span></div>';
-            msg2 += '<span class="end-help-text-3">In Planning Phase. Will be publishing</span>';
+            msg2 += '<div style="text-align:center"><span class="scimores_cap_word">C</span><span class="scimores_secondLine">HENNAI, India</span></div>';
+            msg2 += '<span class="scimores_endLine">In Planning Phase. Will be publishing</span>';
             msg2 += '<br>';
-            msg2 += '<span class="end-help-text">the plan very soon.</span>';
+            msg2 += '<span class="scimores_endLine">the plan very soon.</span>';
             msg2 += '</div>';
 
             var msg3 = '<div id="msg" class="text-container">';
-            msg3 += '<span class="health-label"><span style="font-weight:400">SCIMORES</span> Academy for Arts & Music</span>';
+            msg3 += '<span class="Academy_1"><span>SCIMORES Academy</span><span class="Academy_firstLine"> for Arts & Music</span></span>';
             msg3 += '<br>';
-            msg3 += '<div style="text-align:center"><span class="city-first-letter">H </span><span class="city">erndon, VA</span></div>';
-            msg3 += '<span class="end-help-text-2">In Pre-Construction Phase. Click the below</span>';
+            msg3 += '<div style="text-align:center"><span class="Academy-first-letter">H</span><span class="Academy_secondLine">ERNDON, VA</span></div>';
+            msg3 += '<span class="Academy_end_text">In Pre-Construction Phase. Click the below</span>';
             msg3 += '<br>';
-            msg3 += '<span class="end-help-text"> icon to view the Plan/Brochure.</span>';
+            msg3 += '<span class="Academy_end_text"> icon to view the Plan/Brochure.</span>';
             msg3 += '</div>';
             var text1 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
             var text2 = '<h1 style= "position:absolute; right:20px ;color: yellow"></h1>';
