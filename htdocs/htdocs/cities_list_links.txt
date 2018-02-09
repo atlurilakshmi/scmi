@@ -1,0 +1,8 @@
+http://vidmar.net/weblog/archive/2008/05/23/database-of-country-names-numeric-alpha-2-and-alpha-3-iso-codes.aspx
+http://vidmar.net/download/CountrySQL.txt
+
+http://www.maxmind.com/app/geolitecity
+
+http://www.seoforclients.com/hr/country-state-city-database/
+http://www.maxmind.com/app/fips10_4
+http://www.maxmind.com/app/fips_include

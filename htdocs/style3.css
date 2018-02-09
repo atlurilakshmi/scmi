@@ -1,0 +1,153 @@
+body {
+    overflow-x: hidden;
+    background: #000;
+}
+
+table {
+    background: #000 !important;
+}
+
+.img::after {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 0, #000 100%);
+    height: 150px;
+    width: 100%;
+    content: '';
+    bottom: 0;
+}
+
+div.parent {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 610px;
+}
+
+div.img {
+    width: 100%;
+    height: 610px;
+    position: absolute;
+}
+
+div.img .img1 {
+    -webkit-animation: myfirst 5s infinite;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate;
+    /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s infinite;
+    animation-direction: alternate;
+    width: calc(100% + 300px);
+    height: 100%;
+    position: absolute;
+}
+
+@keyframes myfirst {
+    0% {
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        opacity: 0.6;
+        left: -150px;
+        top: 0px;
+    }
+}
+
+div.img .img2 {
+    -webkit-animation: mySecond 5s infinite;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate;
+    /* Safari 4.0 - 8.0 */
+    animation: mySecond 5s infinite;
+    animation-direction: alternate;
+    height: 710px;
+    /* height: 100%;
+*/
+    width: 100%;
+    position: absolute;
+}
+
+@keyframes mySecond {
+    0% {
+        opacity: 1;
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        opacity: 0.6;
+        left: 0px;
+        top: -50px;
+    }
+}
+
+div.img .img3 {
+    -webkit-animation: myThird 5s infinite;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate;
+    /* Safari 4.0 - 8.0 */
+    animation: myThird 5s infinite;
+    animation-direction: alternate;
+    width: calc(100% + 300px);
+    height: 100%;
+    position: absolute;
+    right: -70px;
+}
+
+@keyframes myThird {
+    0% {
+        opacity: 1;
+        left: -70px;
+        top: 0px;
+    }
+    100% {
+        opacity: 0.6;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#navi_wrapper {
+    position: absolute;
+    z-index: 1;
+    float: left;
+    height: 560px !important;
+    padding: 10px;
+    margin: 0 !important;
+}
+
+.text-container {
+    position: absolute !important;
+    right: 38px !important;
+    top: 23px !important;
+}
+
+.menu-img-container {
+    position: absolute !important;
+    left: 435px;
+}
+
+.img-div:hover {
+    transition: all .2s ease-in-out;
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+}
+
+#template_main {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.menu {
+    bottom: 40px;
+}
+
+#navi_wrapper {
+    margin: 11px 0 5px 45px !important;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<images>
+  <image>
+    <pic>image_1.png</pic>
+    <caption>Text 1</caption>
+    <url>login.php</url>
+  </image>
+  <image>
+    <pic>image_2.png</pic>
+    <caption>Text 2</caption>
+    <url>login.php</url>
+  </image>
+</images>

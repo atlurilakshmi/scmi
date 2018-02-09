@@ -1,0 +1,11 @@
+[Mon Feb 05 09:57:11 2018][error] [client 66.249.64.69] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/robots.txt
+[Mon Feb 05 12:12:20 2018][error] [client 157.55.39.68] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/robots.txt
+[Mon Feb 05 16:44:59 2018][error] [client 131.253.25.212] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/images/bullat.png
+[Mon Feb 05 17:51:11 2018][error] [client 66.249.70.11] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/robots.txt
+[Mon Feb 05 21:42:37 2018][error] [client 66.249.64.66] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/css/helper.css, referer: http://www.scimorestest.com/news.php
+[Mon Feb 05 23:22:11 2018][error] [client 96.241.84.6] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/css/helper.css, referer: http://scimorestest.com/
+[Mon Feb 05 23:20:52 2018][error] [client 96.241.84.6] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/images/bullat.png, referer: http://scimorestest.com/
+[Mon Feb 05 23:20:54 2018][error] [client 96.241.84.6] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/favicon.ico, referer: http://scimorestest.com/
+[Mon Feb 05 23:22:44 2018][error] [client 49.207.176.76] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/css/helper.css, referer: http://scimorestest.com/
+[Mon Feb 05 23:21:23 2018][error] [client 49.207.176.76] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/images/bullat.png, referer: http://scimorestest.com/
+[Mon Feb 05 23:22:51 2018][error] [client 49.207.176.76] File does not exist: /data/48/5/35/155/5035318/user/6060741/htdocs/favicon.ico, referer: http://scimorestest.com/login.php
